@@ -1,5 +1,5 @@
 # ComparisonBeha
-The codebase underlying Zhang et al.'s 2023  paper about Irrelevant social comparison affects the exploration of uncertainty and its association with subjective expectations
+The codebase underlying Zhang et al.'s 2023  paper about Irrelevant social comparison affects the exploration of uncertainty and its association with subjective expectations (preprint: https://psyarxiv.com/74qvb/)
 ![image text](https://github.com/andlab-um/ComparisonBeha/blob/main/Framework_noQ.png)
 
 # Description
