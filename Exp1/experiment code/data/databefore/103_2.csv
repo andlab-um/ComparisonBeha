@@ -1,0 +1,4 @@
+﻿trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,bandit,instru_img1.started,instru_resp.started,instru_resp.keys,instru_resp.rt,instru_img2.started,instru_resp2.started,instru_resp2.keys,instru_resp2.rt,fixbefore_2.started,rest_response.keys,red.started,green.started,yellow.started,blue.started,choose_bandit.started,Fixation.started,choose_bandit.keys,participant,Gender,Age,date,expName,psychopyVersion,frameRate,
+,,,,,15.614447700092569,15.614447700092569,space,1.288490999955684,,,,,,,,,,,,,,103,f,19,2022-11-25_11h00.30.384,RL,2022.2.4,60.174083590379624,
+,,,,,,,,,16.942583499941975,16.942583499941975,space,19.243356599938124,,,,,,,,,,103,f,19,2022-11-25_11h00.30.384,RL,2022.2.4,60.174083590379624,
+,,,,,,,,,,,,,36.21383049990982,None,37.228581600124016,37.228581600124016,37.228581600124016,37.228581600124016,37.228581600124016,37.228581600124016,None,,,,,,,,

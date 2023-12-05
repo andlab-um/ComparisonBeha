@@ -1,0 +1,1829 @@
+0.8349 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+3.5549 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1512, 982]. Using actual size
+4.2411 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fb8696ccc70>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fb86acf7af0>, multiSample=False, name='window1', numSamples=2, pos=[378.0, 245.5], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.2415 	EXP 	window1: mouseVisible = True
+4.2441 	EXP 	window1: mouseVisible = False
+4.2441 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.2442 	EXP 	window1: recordFrameIntervals = False
+4.3653 	EXP 	window1: recordFrameIntervals = True
+4.4366 	WARNING 	t of last frame was 21.17ms (=1/47)
+4.4575 	WARNING 	t of last frame was 20.89ms (=1/47)
+4.4737 	WARNING 	t of last frame was 16.22ms (=1/61)
+4.7576 	WARNING 	t of last frame was 15.01ms (=1/66)
+5.2431 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.1346 	EXP 	Created instru_img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro1.png', interpolate=True, mask=None, maskParams=None, name='instru_img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.6, 1. ]), texRes=128, units='height', win=Window(...))
+8.4671 	EXP 	Created instru_img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro22.png', interpolate=True, mask=None, maskParams=None, name='instru_img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.67, 1.  ]), texRes=128.0, units='height', win=Window(...))
+8.7452 	EXP 	Created fixbefore_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixbefore_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.7678 	EXP 	Created rest_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/rest.png', interpolate=True, mask=None, maskParams=None, name='rest_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.857, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+9.0312 	EXP 	Created red = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.0366 	EXP 	Created green = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.0420 	EXP 	Created yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.0472 	EXP 	Created blue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3047 	EXP 	Created Fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.3077 	EXP 	Created black = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='black', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+9.3104 	EXP 	Created red_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='red_2', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3130 	EXP 	Created green_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='green_2', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3156 	EXP 	Created yellow_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='yellow_2', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3183 	EXP 	Created blue_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='blue_2', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3208 	EXP 	Created fixation_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fixation_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.3213 	EXP 	Created docs = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='docs', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.3254 	EXP 	Created black_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/black.png', interpolate=True, mask=None, maskParams=None, name='black_com', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+9.3351 	EXP 	Created reward_sub = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/rewardsub.png', interpolate=True, mask=None, maskParams=None, name='reward_sub', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([0.365, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+9.3355 	EXP 	Created reward__sub = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='reward__sub', opacity=1.0, ori=0.0, pos=array([0.06 , 0.305]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.3405 	EXP 	Created red_compare = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red_compare', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3455 	EXP 	Created green_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green_com', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3505 	EXP 	Created yellow_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow_com', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3555 	EXP 	Created blue_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue_com', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3560 	EXP 	Created bigx = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='bigx', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.3587 	EXP 	Created intertrialfix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='intertrialfix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.3753 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/end.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.661, 0.1  ]), texRes=128, units='height', win=Window(...))
+9.6441 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+9.6441 	EXP 	instru_img1: autoDraw = True
+10.9315 	DATA 	Keypress: space
+10.9396 	EXP 	instru_img1: autoDraw = False
+10.9396 	EXP 	instru_img2: autoDraw = True
+13.4016 	DATA 	Keypress: s
+13.4057 	EXP 	instru_img2: autoDraw = False
+13.4057 	EXP 	fixbefore_2: autoDraw = True
+14.4008 	EXP 	Imported reward_distribution_e3/reward_distribution_1.csv as conditions, 150 conditions, 4 params
+14.4030 	EXP 	Created sequence: sequential, trialTypes=150, nReps=150, seed=None
+14.4041 	EXP 	New trial (rep=0, index=0): OrderedDict([('arm1', 45), ('arm2', 42), ('arm3', 50), ('arm4', 53)])
+14.4192 	EXP 	fixbefore_2: autoDraw = False
+14.4192 	EXP 	rest_image: autoDraw = False
+14.4192 	EXP 	red: autoDraw = True
+14.4192 	EXP 	green: autoDraw = True
+14.4192 	EXP 	yellow: autoDraw = True
+14.4192 	EXP 	blue: autoDraw = True
+14.4192 	EXP 	Fixation: autoDraw = True
+15.0388 	DATA 	Keypress: i
+15.0426 	EXP 	red: autoDraw = False
+15.0426 	EXP 	green: autoDraw = False
+15.0426 	EXP 	yellow: autoDraw = False
+15.0426 	EXP 	blue: autoDraw = False
+15.0426 	EXP 	Fixation: autoDraw = False
+15.0426 	EXP 	black: image = 'pic/black.png'
+15.0426 	EXP 	red_2: image = 'pic/red.png'
+15.0426 	EXP 	green_2: image = 'pic/green.png'
+15.0426 	EXP 	yellow_2: image = 'pic/yellow.png'
+15.0426 	EXP 	blue_2: image = 'pic/blue.png'
+15.0426 	EXP 	fixation_2: height = 0.06
+15.0426 	EXP 	fixation_2: height = 0.06
+15.0426 	EXP 	fixation_2: height = 0.06
+15.0426 	EXP 	fixation_2: text = '+'
+15.0426 	EXP 	docs: height = 0.05
+15.0426 	EXP 	docs: height = 0.05
+15.0426 	EXP 	docs: height = 0.05
+15.0426 	EXP 	docs: text = '● ● ●'
+15.0426 	EXP 	black: autoDraw = True
+15.0426 	EXP 	red_2: autoDraw = True
+15.0426 	EXP 	green_2: autoDraw = True
+15.0426 	EXP 	yellow_2: autoDraw = True
+15.0426 	EXP 	blue_2: autoDraw = True
+15.0426 	EXP 	fixation_2: autoDraw = True
+15.3031 	EXP 	docs: autoDraw = True
+16.1429 	EXP 	docs: autoDraw = False
+16.1877 	EXP 	black: autoDraw = False
+16.1877 	EXP 	red_2: autoDraw = False
+16.1877 	EXP 	green_2: autoDraw = False
+16.1877 	EXP 	yellow_2: autoDraw = False
+16.1877 	EXP 	blue_2: autoDraw = False
+16.1877 	EXP 	fixation_2: autoDraw = False
+16.1877 	EXP 	black: autoDraw = False
+16.1877 	EXP 	red_2: autoDraw = False
+16.1877 	EXP 	green_2: autoDraw = False
+16.1877 	EXP 	yellow_2: autoDraw = False
+16.1877 	EXP 	blue_2: autoDraw = False
+16.1877 	EXP 	fixation_2: autoDraw = False
+16.1877 	EXP 	docs: autoDraw = False
+16.1877 	EXP 	reward__sub: height = 0.05
+16.1877 	EXP 	reward__sub: height = 0.05
+16.1877 	EXP 	reward__sub: height = 0.05
+16.1877 	EXP 	reward__sub: text = 53
+16.1877 	EXP 	black_com: autoDraw = True
+16.1877 	EXP 	reward_sub: autoDraw = True
+16.1877 	EXP 	reward__sub: autoDraw = True
+16.1877 	EXP 	red_compare: autoDraw = True
+16.1877 	EXP 	green_com: autoDraw = True
+16.1877 	EXP 	yellow_com: autoDraw = True
+16.1877 	EXP 	blue_com: autoDraw = True
+17.3386 	EXP 	black_com: autoDraw = False
+17.3386 	EXP 	reward_sub: autoDraw = False
+17.3386 	EXP 	reward__sub: autoDraw = False
+17.3386 	EXP 	red_compare: autoDraw = False
+17.3386 	EXP 	green_com: autoDraw = False
+17.3386 	EXP 	yellow_com: autoDraw = False
+17.3386 	EXP 	blue_com: autoDraw = False
+17.3386 	EXP 	black_com: autoDraw = False
+17.3386 	EXP 	reward_sub: autoDraw = False
+17.3386 	EXP 	reward__sub: autoDraw = False
+17.3386 	EXP 	red_compare: autoDraw = False
+17.3386 	EXP 	green_com: autoDraw = False
+17.3386 	EXP 	yellow_com: autoDraw = False
+17.3386 	EXP 	blue_com: autoDraw = False
+17.3386 	EXP 	bigx: height = 0.5
+17.3386 	EXP 	bigx: height = 0.5
+17.3386 	EXP 	bigx: height = 0.5
+17.3386 	EXP 	bigx: text = '×'
+17.3386 	EXP 	bigx: autoDraw = False
+17.3386 	EXP 	intertrialfix: autoDraw = True
+18.8924 	EXP 	New trial (rep=0, index=1): OrderedDict([('arm1', 32), ('arm2', 43), ('arm3', 50), ('arm4', 58)])
+18.8975 	EXP 	intertrialfix: autoDraw = False
+18.8975 	EXP 	intertrialfix: autoDraw = False
+18.8975 	EXP 	rest_image: autoDraw = False
+18.8975 	EXP 	red: autoDraw = True
+18.8975 	EXP 	green: autoDraw = True
+18.8975 	EXP 	yellow: autoDraw = True
+18.8975 	EXP 	blue: autoDraw = True
+18.8975 	EXP 	Fixation: autoDraw = True
+19.3696 	DATA 	Keypress: j
+19.3734 	EXP 	red: autoDraw = False
+19.3734 	EXP 	green: autoDraw = False
+19.3734 	EXP 	yellow: autoDraw = False
+19.3734 	EXP 	blue: autoDraw = False
+19.3734 	EXP 	Fixation: autoDraw = False
+19.3734 	EXP 	black: image = 'pic/black.png'
+19.3734 	EXP 	red_2: image = 'pic/red.png'
+19.3734 	EXP 	green_2: image = 'pic/green.png'
+19.3734 	EXP 	yellow_2: image = 'pic/yellow.png'
+19.3734 	EXP 	blue_2: image = 'pic/blue.png'
+19.3734 	EXP 	fixation_2: text = '+'
+19.3734 	EXP 	docs: text = '● ● ●'
+19.3734 	EXP 	black: autoDraw = True
+19.3734 	EXP 	red_2: autoDraw = True
+19.3734 	EXP 	green_2: autoDraw = True
+19.3734 	EXP 	yellow_2: autoDraw = True
+19.3734 	EXP 	blue_2: autoDraw = True
+19.3734 	EXP 	fixation_2: autoDraw = True
+19.6360 	EXP 	docs: autoDraw = True
+20.7026 	EXP 	docs: autoDraw = False
+20.7418 	EXP 	black: autoDraw = False
+20.7418 	EXP 	red_2: autoDraw = False
+20.7418 	EXP 	green_2: autoDraw = False
+20.7418 	EXP 	yellow_2: autoDraw = False
+20.7418 	EXP 	blue_2: autoDraw = False
+20.7418 	EXP 	fixation_2: autoDraw = False
+20.7418 	EXP 	black: autoDraw = False
+20.7418 	EXP 	red_2: autoDraw = False
+20.7418 	EXP 	green_2: autoDraw = False
+20.7418 	EXP 	yellow_2: autoDraw = False
+20.7418 	EXP 	blue_2: autoDraw = False
+20.7418 	EXP 	fixation_2: autoDraw = False
+20.7418 	EXP 	docs: autoDraw = False
+20.7418 	EXP 	reward__sub: height = 0.05
+20.7418 	EXP 	reward__sub: height = 0.05
+20.7418 	EXP 	reward__sub: height = 0.05
+20.7418 	EXP 	reward__sub: text = 50
+20.7418 	EXP 	black_com: autoDraw = True
+20.7418 	EXP 	reward_sub: autoDraw = True
+20.7418 	EXP 	reward__sub: autoDraw = True
+20.7418 	EXP 	red_compare: autoDraw = True
+20.7418 	EXP 	green_com: autoDraw = True
+20.7418 	EXP 	yellow_com: autoDraw = True
+20.7418 	EXP 	blue_com: autoDraw = True
+22.1012 	EXP 	black_com: autoDraw = False
+22.1012 	EXP 	reward_sub: autoDraw = False
+22.1012 	EXP 	reward__sub: autoDraw = False
+22.1012 	EXP 	red_compare: autoDraw = False
+22.1012 	EXP 	green_com: autoDraw = False
+22.1012 	EXP 	yellow_com: autoDraw = False
+22.1012 	EXP 	blue_com: autoDraw = False
+22.1012 	EXP 	black_com: autoDraw = False
+22.1012 	EXP 	reward_sub: autoDraw = False
+22.1012 	EXP 	reward__sub: autoDraw = False
+22.1012 	EXP 	red_compare: autoDraw = False
+22.1012 	EXP 	green_com: autoDraw = False
+22.1012 	EXP 	yellow_com: autoDraw = False
+22.1012 	EXP 	blue_com: autoDraw = False
+22.1012 	EXP 	bigx: text = '×'
+22.1012 	EXP 	bigx: autoDraw = False
+22.1012 	EXP 	intertrialfix: autoDraw = True
+23.8144 	EXP 	New trial (rep=0, index=2): OrderedDict([('arm1', 43), ('arm2', 50), ('arm3', 57), ('arm4', 55)])
+23.8221 	EXP 	intertrialfix: autoDraw = False
+23.8221 	EXP 	intertrialfix: autoDraw = False
+23.8221 	EXP 	rest_image: autoDraw = False
+23.8221 	EXP 	red: autoDraw = True
+23.8221 	EXP 	green: autoDraw = True
+23.8221 	EXP 	yellow: autoDraw = True
+23.8221 	EXP 	blue: autoDraw = True
+23.8221 	EXP 	Fixation: autoDraw = True
+24.1447 	DATA 	Keypress: r
+24.1485 	EXP 	red: autoDraw = False
+24.1485 	EXP 	green: autoDraw = False
+24.1485 	EXP 	yellow: autoDraw = False
+24.1485 	EXP 	blue: autoDraw = False
+24.1485 	EXP 	Fixation: autoDraw = False
+24.1485 	EXP 	black: image = 'pic/black.png'
+24.1485 	EXP 	red_2: image = 'pic/red.png'
+24.1485 	EXP 	green_2: image = 'pic/green.png'
+24.1485 	EXP 	yellow_2: image = 'pic/yellow.png'
+24.1485 	EXP 	blue_2: image = 'pic/blue.png'
+24.1485 	EXP 	fixation_2: text = '+'
+24.1485 	EXP 	docs: text = '● ● ●'
+24.1485 	EXP 	black: autoDraw = True
+24.1485 	EXP 	red_2: autoDraw = True
+24.1485 	EXP 	green_2: autoDraw = True
+24.1485 	EXP 	yellow_2: autoDraw = True
+24.1485 	EXP 	blue_2: autoDraw = True
+24.1485 	EXP 	fixation_2: autoDraw = True
+24.4072 	EXP 	docs: autoDraw = True
+26.0076 	EXP 	docs: autoDraw = False
+26.0527 	EXP 	black: autoDraw = False
+26.0527 	EXP 	red_2: autoDraw = False
+26.0527 	EXP 	green_2: autoDraw = False
+26.0527 	EXP 	yellow_2: autoDraw = False
+26.0527 	EXP 	blue_2: autoDraw = False
+26.0527 	EXP 	fixation_2: autoDraw = False
+26.0527 	EXP 	black: autoDraw = False
+26.0527 	EXP 	red_2: autoDraw = False
+26.0527 	EXP 	green_2: autoDraw = False
+26.0527 	EXP 	yellow_2: autoDraw = False
+26.0527 	EXP 	blue_2: autoDraw = False
+26.0527 	EXP 	fixation_2: autoDraw = False
+26.0527 	EXP 	docs: autoDraw = False
+26.0527 	EXP 	reward__sub: height = 0.05
+26.0527 	EXP 	reward__sub: height = 0.05
+26.0527 	EXP 	reward__sub: height = 0.05
+26.0527 	EXP 	reward__sub: text = 43
+26.0527 	EXP 	black_com: autoDraw = True
+26.0527 	EXP 	reward_sub: autoDraw = True
+26.0527 	EXP 	reward__sub: autoDraw = True
+26.0527 	EXP 	red_compare: autoDraw = True
+26.0527 	EXP 	green_com: autoDraw = True
+26.0527 	EXP 	yellow_com: autoDraw = True
+26.0527 	EXP 	blue_com: autoDraw = True
+27.9613 	EXP 	black_com: autoDraw = False
+27.9613 	EXP 	reward_sub: autoDraw = False
+27.9613 	EXP 	reward__sub: autoDraw = False
+27.9613 	EXP 	red_compare: autoDraw = False
+27.9613 	EXP 	green_com: autoDraw = False
+27.9613 	EXP 	yellow_com: autoDraw = False
+27.9613 	EXP 	blue_com: autoDraw = False
+27.9613 	EXP 	black_com: autoDraw = False
+27.9613 	EXP 	reward_sub: autoDraw = False
+27.9613 	EXP 	reward__sub: autoDraw = False
+27.9613 	EXP 	red_compare: autoDraw = False
+27.9613 	EXP 	green_com: autoDraw = False
+27.9613 	EXP 	yellow_com: autoDraw = False
+27.9613 	EXP 	blue_com: autoDraw = False
+27.9613 	EXP 	bigx: text = '×'
+27.9613 	EXP 	bigx: autoDraw = False
+27.9613 	EXP 	intertrialfix: autoDraw = True
+29.6672 	DATA 	Keypress: f
+29.8482 	EXP 	New trial (rep=0, index=3): OrderedDict([('arm1', 42), ('arm2', 44), ('arm3', 52), ('arm4', 56)])
+29.8544 	EXP 	intertrialfix: autoDraw = False
+29.8544 	EXP 	intertrialfix: autoDraw = False
+29.8544 	EXP 	rest_image: autoDraw = False
+29.8544 	EXP 	red: autoDraw = True
+29.8544 	EXP 	green: autoDraw = True
+29.8544 	EXP 	yellow: autoDraw = True
+29.8544 	EXP 	blue: autoDraw = True
+29.8544 	EXP 	Fixation: autoDraw = True
+30.2734 	DATA 	Keypress: f
+30.2770 	EXP 	red: autoDraw = False
+30.2770 	EXP 	green: autoDraw = False
+30.2770 	EXP 	yellow: autoDraw = False
+30.2770 	EXP 	blue: autoDraw = False
+30.2770 	EXP 	Fixation: autoDraw = False
+30.2770 	EXP 	black: image = 'pic/black.png'
+30.2770 	EXP 	red_2: image = 'pic/red.png'
+30.2770 	EXP 	green_2: image = 'pic/green.png'
+30.2770 	EXP 	yellow_2: image = 'pic/yellow.png'
+30.2770 	EXP 	blue_2: image = 'pic/blue.png'
+30.2770 	EXP 	fixation_2: text = '+'
+30.2770 	EXP 	docs: text = '● ● ●'
+30.2770 	EXP 	black: autoDraw = True
+30.2770 	EXP 	red_2: autoDraw = True
+30.2770 	EXP 	green_2: autoDraw = True
+30.2770 	EXP 	yellow_2: autoDraw = True
+30.2770 	EXP 	blue_2: autoDraw = True
+30.2770 	EXP 	fixation_2: autoDraw = True
+30.5347 	EXP 	docs: autoDraw = True
+31.8609 	EXP 	docs: autoDraw = False
+31.9029 	EXP 	black: autoDraw = False
+31.9029 	EXP 	red_2: autoDraw = False
+31.9029 	EXP 	green_2: autoDraw = False
+31.9029 	EXP 	yellow_2: autoDraw = False
+31.9029 	EXP 	blue_2: autoDraw = False
+31.9029 	EXP 	fixation_2: autoDraw = False
+31.9029 	EXP 	black: autoDraw = False
+31.9029 	EXP 	red_2: autoDraw = False
+31.9029 	EXP 	green_2: autoDraw = False
+31.9029 	EXP 	yellow_2: autoDraw = False
+31.9029 	EXP 	blue_2: autoDraw = False
+31.9029 	EXP 	fixation_2: autoDraw = False
+31.9029 	EXP 	docs: autoDraw = False
+31.9029 	EXP 	reward__sub: height = 0.05
+31.9029 	EXP 	reward__sub: height = 0.05
+31.9029 	EXP 	reward__sub: height = 0.05
+31.9029 	EXP 	reward__sub: text = 44
+31.9029 	EXP 	black_com: autoDraw = True
+31.9029 	EXP 	reward_sub: autoDraw = True
+31.9029 	EXP 	reward__sub: autoDraw = True
+31.9029 	EXP 	red_compare: autoDraw = True
+31.9029 	EXP 	green_com: autoDraw = True
+31.9029 	EXP 	yellow_com: autoDraw = True
+31.9029 	EXP 	blue_com: autoDraw = True
+33.5345 	EXP 	black_com: autoDraw = False
+33.5345 	EXP 	reward_sub: autoDraw = False
+33.5345 	EXP 	reward__sub: autoDraw = False
+33.5345 	EXP 	red_compare: autoDraw = False
+33.5345 	EXP 	green_com: autoDraw = False
+33.5345 	EXP 	yellow_com: autoDraw = False
+33.5345 	EXP 	blue_com: autoDraw = False
+33.5345 	EXP 	black_com: autoDraw = False
+33.5345 	EXP 	reward_sub: autoDraw = False
+33.5345 	EXP 	reward__sub: autoDraw = False
+33.5345 	EXP 	red_compare: autoDraw = False
+33.5345 	EXP 	green_com: autoDraw = False
+33.5345 	EXP 	yellow_com: autoDraw = False
+33.5345 	EXP 	blue_com: autoDraw = False
+33.5345 	EXP 	bigx: text = '×'
+33.5345 	EXP 	bigx: autoDraw = False
+33.5345 	EXP 	intertrialfix: autoDraw = True
+35.2506 	EXP 	New trial (rep=0, index=4): OrderedDict([('arm1', 49), ('arm2', 38), ('arm3', 49), ('arm4', 67)])
+35.2585 	EXP 	intertrialfix: autoDraw = False
+35.2585 	EXP 	intertrialfix: autoDraw = False
+35.2585 	EXP 	rest_image: autoDraw = False
+35.2585 	EXP 	red: autoDraw = True
+35.2585 	EXP 	green: autoDraw = True
+35.2585 	EXP 	yellow: autoDraw = True
+35.2585 	EXP 	blue: autoDraw = True
+35.2585 	EXP 	Fixation: autoDraw = True
+35.3918 	DATA 	Keypress: i
+35.3956 	EXP 	red: autoDraw = False
+35.3956 	EXP 	green: autoDraw = False
+35.3956 	EXP 	yellow: autoDraw = False
+35.3956 	EXP 	blue: autoDraw = False
+35.3956 	EXP 	Fixation: autoDraw = False
+35.3956 	EXP 	black: image = 'pic/black.png'
+35.3956 	EXP 	red_2: image = 'pic/red.png'
+35.3956 	EXP 	green_2: image = 'pic/green.png'
+35.3956 	EXP 	yellow_2: image = 'pic/yellow.png'
+35.3956 	EXP 	blue_2: image = 'pic/blue.png'
+35.3956 	EXP 	fixation_2: text = '+'
+35.3956 	EXP 	docs: text = '● ● ●'
+35.3956 	EXP 	black: autoDraw = True
+35.3956 	EXP 	red_2: autoDraw = True
+35.3956 	EXP 	green_2: autoDraw = True
+35.3956 	EXP 	yellow_2: autoDraw = True
+35.3956 	EXP 	blue_2: autoDraw = True
+35.3956 	EXP 	fixation_2: autoDraw = True
+35.6560 	EXP 	docs: autoDraw = True
+37.5817 	EXP 	docs: autoDraw = False
+37.6198 	EXP 	black: autoDraw = False
+37.6198 	EXP 	red_2: autoDraw = False
+37.6198 	EXP 	green_2: autoDraw = False
+37.6198 	EXP 	yellow_2: autoDraw = False
+37.6198 	EXP 	blue_2: autoDraw = False
+37.6198 	EXP 	fixation_2: autoDraw = False
+37.6198 	EXP 	black: autoDraw = False
+37.6198 	EXP 	red_2: autoDraw = False
+37.6198 	EXP 	green_2: autoDraw = False
+37.6198 	EXP 	yellow_2: autoDraw = False
+37.6198 	EXP 	blue_2: autoDraw = False
+37.6198 	EXP 	fixation_2: autoDraw = False
+37.6198 	EXP 	docs: autoDraw = False
+37.6198 	EXP 	reward__sub: height = 0.05
+37.6198 	EXP 	reward__sub: height = 0.05
+37.6198 	EXP 	reward__sub: height = 0.05
+37.6198 	EXP 	reward__sub: text = 67
+37.6198 	EXP 	black_com: autoDraw = True
+37.6198 	EXP 	reward_sub: autoDraw = True
+37.6198 	EXP 	reward__sub: autoDraw = True
+37.6198 	EXP 	red_compare: autoDraw = True
+37.6198 	EXP 	green_com: autoDraw = True
+37.6198 	EXP 	yellow_com: autoDraw = True
+37.6198 	EXP 	blue_com: autoDraw = True
+39.8445 	EXP 	black_com: autoDraw = False
+39.8445 	EXP 	reward_sub: autoDraw = False
+39.8445 	EXP 	reward__sub: autoDraw = False
+39.8445 	EXP 	red_compare: autoDraw = False
+39.8445 	EXP 	green_com: autoDraw = False
+39.8445 	EXP 	yellow_com: autoDraw = False
+39.8445 	EXP 	blue_com: autoDraw = False
+39.8445 	EXP 	black_com: autoDraw = False
+39.8445 	EXP 	reward_sub: autoDraw = False
+39.8445 	EXP 	reward__sub: autoDraw = False
+39.8445 	EXP 	red_compare: autoDraw = False
+39.8445 	EXP 	green_com: autoDraw = False
+39.8445 	EXP 	yellow_com: autoDraw = False
+39.8445 	EXP 	blue_com: autoDraw = False
+39.8445 	EXP 	bigx: text = '×'
+39.8445 	EXP 	bigx: autoDraw = False
+39.8445 	EXP 	intertrialfix: autoDraw = True
+41.4227 	EXP 	New trial (rep=0, index=5): OrderedDict([('arm1', 44), ('arm2', 40), ('arm3', 59), ('arm4', 51)])
+41.4292 	EXP 	intertrialfix: autoDraw = False
+41.4292 	EXP 	intertrialfix: autoDraw = False
+41.4292 	EXP 	rest_image: autoDraw = False
+41.4292 	EXP 	red: autoDraw = True
+41.4292 	EXP 	green: autoDraw = True
+41.4292 	EXP 	yellow: autoDraw = True
+41.4292 	EXP 	blue: autoDraw = True
+41.4292 	EXP 	Fixation: autoDraw = True
+42.9389 	EXP 	red: autoDraw = False
+42.9389 	EXP 	green: autoDraw = False
+42.9389 	EXP 	yellow: autoDraw = False
+42.9389 	EXP 	blue: autoDraw = False
+42.9389 	EXP 	Fixation: autoDraw = False
+42.9389 	EXP 	red: autoDraw = False
+42.9389 	EXP 	green: autoDraw = False
+42.9389 	EXP 	yellow: autoDraw = False
+42.9389 	EXP 	blue: autoDraw = False
+42.9389 	EXP 	Fixation: autoDraw = False
+42.9389 	EXP 	black: image = 'pic/black.png'
+42.9389 	EXP 	red_2: image = 'pic/red.png'
+42.9389 	EXP 	green_2: image = 'pic/green.png'
+42.9389 	EXP 	yellow_2: image = 'pic/yellow.png'
+42.9389 	EXP 	blue_2: image = 'pic/blue.png'
+42.9389 	EXP 	fixation_2: text = '+'
+42.9389 	EXP 	docs: text = '● ● ●'
+42.9389 	EXP 	black: autoDraw = False
+42.9389 	EXP 	red_2: autoDraw = False
+42.9389 	EXP 	green_2: autoDraw = False
+42.9389 	EXP 	yellow_2: autoDraw = False
+42.9389 	EXP 	blue_2: autoDraw = False
+42.9389 	EXP 	fixation_2: autoDraw = False
+42.9389 	EXP 	docs: autoDraw = False
+42.9389 	EXP 	reward__sub: height = 0.05
+42.9389 	EXP 	reward__sub: height = 0.05
+42.9389 	EXP 	reward__sub: height = 0.05
+42.9389 	EXP 	reward__sub: text = 0
+42.9389 	EXP 	black_com: autoDraw = False
+42.9389 	EXP 	reward_sub: autoDraw = False
+42.9389 	EXP 	reward__sub: autoDraw = False
+42.9389 	EXP 	red_compare: autoDraw = False
+42.9389 	EXP 	green_com: autoDraw = False
+42.9389 	EXP 	yellow_com: autoDraw = False
+42.9389 	EXP 	blue_com: autoDraw = False
+42.9389 	EXP 	bigx: text = '×'
+42.9389 	EXP 	bigx: autoDraw = True
+48.9395 	EXP 	bigx: autoDraw = False
+48.9395 	EXP 	bigx: autoDraw = False
+48.9395 	EXP 	intertrialfix: autoDraw = True
+50.9214 	EXP 	New trial (rep=0, index=6): OrderedDict([('arm1', 53), ('arm2', 40), ('arm3', 54), ('arm4', 56)])
+50.9293 	EXP 	intertrialfix: autoDraw = False
+50.9293 	EXP 	intertrialfix: autoDraw = False
+50.9293 	EXP 	rest_image: autoDraw = False
+50.9293 	EXP 	red: autoDraw = True
+50.9293 	EXP 	green: autoDraw = True
+50.9293 	EXP 	yellow: autoDraw = True
+50.9293 	EXP 	blue: autoDraw = True
+50.9293 	EXP 	Fixation: autoDraw = True
+51.9165 	DATA 	Keypress: escape
+52.0921 	EXP 	window1: mouseVisible = True
+0.9565 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+3.7516 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1512, 982]. Using actual size
+4.8945 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+4.8952 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f82db01fc70>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f82798aed60>, multiSample=False, name='window1', numSamples=2, pos=[378.0, 245.5], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.8955 	EXP 	window1: mouseVisible = True
+4.8973 	EXP 	window1: mouseVisible = False
+4.8973 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.8974 	EXP 	window1: recordFrameIntervals = False
+4.9782 	EXP 	window1: recordFrameIntervals = True
+5.8113 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.7032 	EXP 	Created instru_img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro1.png', interpolate=True, mask=None, maskParams=None, name='instru_img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.6, 1. ]), texRes=128, units='height', win=Window(...))
+9.0173 	EXP 	Created instru_img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro22.png', interpolate=True, mask=None, maskParams=None, name='instru_img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.67, 1.  ]), texRes=128.0, units='height', win=Window(...))
+9.2951 	EXP 	Created fixbefore_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixbefore_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.3188 	EXP 	Created rest_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/rest.png', interpolate=True, mask=None, maskParams=None, name='rest_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.857, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+9.5809 	EXP 	Created red = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.5861 	EXP 	Created green = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.5917 	EXP 	Created yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.5970 	EXP 	Created blue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.8524 	EXP 	Created Fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.8560 	EXP 	Created black = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='black', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+9.8587 	EXP 	Created red_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='red_2', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.8614 	EXP 	Created green_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='green_2', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.8641 	EXP 	Created yellow_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='yellow_2', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.8667 	EXP 	Created blue_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='blue_2', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.8688 	EXP 	Created fixation_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fixation_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.8693 	EXP 	Created docs = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='docs', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.8735 	EXP 	Created black_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/black.png', interpolate=True, mask=None, maskParams=None, name='black_com', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+9.8831 	EXP 	Created reward_sub = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/rewardsub.png', interpolate=True, mask=None, maskParams=None, name='reward_sub', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([0.365, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+9.8835 	EXP 	Created reward__sub = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='reward__sub', opacity=1.0, ori=0.0, pos=array([0.061, 0.305]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.8885 	EXP 	Created red_compare = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red_compare', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.8935 	EXP 	Created green_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green_com', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.8985 	EXP 	Created yellow_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow_com', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.9034 	EXP 	Created blue_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue_com', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.9040 	EXP 	Created bigx = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='bigx', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.9072 	EXP 	Created intertrialfix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='intertrialfix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.9241 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/end.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.661, 0.1  ]), texRes=128, units='height', win=Window(...))
+10.1898 	WARNING 	t of last frame was 4378.82ms (=1/0)
+10.1898 	EXP 	instru_img1: autoDraw = True
+11.1494 	DATA 	Keypress: space
+11.1580 	WARNING 	t of last frame was 20.78ms (=1/48)
+11.1580 	EXP 	instru_img1: autoDraw = False
+11.1580 	EXP 	instru_img2: autoDraw = True
+11.6351 	DATA 	Keypress: s
+11.6403 	WARNING 	t of last frame was 50.85ms (=1/19)
+11.6403 	EXP 	instru_img2: autoDraw = False
+11.6403 	EXP 	fixbefore_2: autoDraw = True
+11.7112 	WARNING 	t of last frame was 21.21ms (=1/47)
+12.6127 	EXP 	Imported reward_distribution_e3/reward_distribution_1.csv as conditions, 150 conditions, 4 params
+12.6146 	EXP 	Created sequence: sequential, trialTypes=150, nReps=150, seed=None
+12.6157 	EXP 	New trial (rep=0, index=0): OrderedDict([('arm1', 45), ('arm2', 42), ('arm3', 50), ('arm4', 53)])
+12.6321 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+12.6320 	EXP 	fixbefore_2: autoDraw = False
+12.6320 	EXP 	rest_image: autoDraw = False
+12.6320 	EXP 	red: autoDraw = True
+12.6320 	EXP 	green: autoDraw = True
+12.6320 	EXP 	yellow: autoDraw = True
+12.6320 	EXP 	blue: autoDraw = True
+12.6320 	EXP 	Fixation: autoDraw = True
+12.9331 	DATA 	Keypress: i
+12.9369 	EXP 	red: autoDraw = False
+12.9369 	EXP 	green: autoDraw = False
+12.9369 	EXP 	yellow: autoDraw = False
+12.9369 	EXP 	blue: autoDraw = False
+12.9369 	EXP 	Fixation: autoDraw = False
+12.9369 	EXP 	black: image = 'pic/black.png'
+12.9369 	EXP 	red_2: image = 'pic/red.png'
+12.9369 	EXP 	green_2: image = 'pic/green.png'
+12.9369 	EXP 	yellow_2: image = 'pic/yellow.png'
+12.9369 	EXP 	blue_2: image = 'pic/blue.png'
+12.9369 	EXP 	fixation_2: height = 0.06
+12.9369 	EXP 	fixation_2: height = 0.06
+12.9369 	EXP 	fixation_2: height = 0.06
+12.9369 	EXP 	fixation_2: text = '+'
+12.9369 	EXP 	docs: height = 0.05
+12.9369 	EXP 	docs: height = 0.05
+12.9369 	EXP 	docs: height = 0.05
+12.9369 	EXP 	docs: text = '● ● ●'
+12.9369 	EXP 	black: autoDraw = True
+12.9369 	EXP 	red_2: autoDraw = True
+12.9369 	EXP 	green_2: autoDraw = True
+12.9369 	EXP 	yellow_2: autoDraw = True
+12.9369 	EXP 	blue_2: autoDraw = True
+12.9369 	EXP 	fixation_2: autoDraw = True
+13.1870 	EXP 	docs: autoDraw = True
+14.6555 	EXP 	docs: autoDraw = False
+14.7135 	EXP 	black: autoDraw = False
+14.7135 	EXP 	red_2: autoDraw = False
+14.7135 	EXP 	green_2: autoDraw = False
+14.7135 	EXP 	yellow_2: autoDraw = False
+14.7135 	EXP 	blue_2: autoDraw = False
+14.7135 	EXP 	fixation_2: autoDraw = False
+14.7135 	EXP 	black: autoDraw = False
+14.7135 	EXP 	red_2: autoDraw = False
+14.7135 	EXP 	green_2: autoDraw = False
+14.7135 	EXP 	yellow_2: autoDraw = False
+14.7135 	EXP 	blue_2: autoDraw = False
+14.7135 	EXP 	fixation_2: autoDraw = False
+14.7135 	EXP 	docs: autoDraw = False
+14.7135 	EXP 	reward__sub: height = 0.05
+14.7135 	EXP 	reward__sub: height = 0.05
+14.7135 	EXP 	reward__sub: height = 0.05
+14.7135 	EXP 	reward__sub: text = 45
+14.7135 	EXP 	black_com: autoDraw = True
+14.7135 	EXP 	reward_sub: autoDraw = True
+14.7135 	EXP 	reward__sub: autoDraw = True
+14.7135 	EXP 	red_compare: autoDraw = True
+14.7135 	EXP 	green_com: autoDraw = True
+14.7135 	EXP 	yellow_com: autoDraw = True
+14.7135 	EXP 	blue_com: autoDraw = True
+16.4921 	EXP 	black_com: autoDraw = False
+16.4921 	EXP 	reward_sub: autoDraw = False
+16.4921 	EXP 	reward__sub: autoDraw = False
+16.4921 	EXP 	red_compare: autoDraw = False
+16.4921 	EXP 	green_com: autoDraw = False
+16.4921 	EXP 	yellow_com: autoDraw = False
+16.4921 	EXP 	blue_com: autoDraw = False
+16.4921 	EXP 	black_com: autoDraw = False
+16.4921 	EXP 	reward_sub: autoDraw = False
+16.4921 	EXP 	reward__sub: autoDraw = False
+16.4921 	EXP 	red_compare: autoDraw = False
+16.4921 	EXP 	green_com: autoDraw = False
+16.4921 	EXP 	yellow_com: autoDraw = False
+16.4921 	EXP 	blue_com: autoDraw = False
+16.4921 	EXP 	bigx: height = 0.5
+16.4921 	EXP 	bigx: height = 0.5
+16.4921 	EXP 	bigx: height = 0.5
+16.4921 	EXP 	bigx: text = '×'
+16.4921 	EXP 	bigx: autoDraw = False
+16.4921 	EXP 	intertrialfix: autoDraw = True
+16.9777 	DATA 	Keypress: escape
+17.1941 	EXP 	window1: mouseVisible = True
+0.9323 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+3.9817 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1512, 982]. Using actual size
+5.0977 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+5.0985 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc969abecd0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc9113bec40>, multiSample=False, name='window1', numSamples=2, pos=[378.0, 245.5], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.0991 	EXP 	window1: mouseVisible = True
+5.1029 	EXP 	window1: mouseVisible = False
+5.1029 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.1030 	EXP 	window1: recordFrameIntervals = False
+5.1847 	EXP 	window1: recordFrameIntervals = True
+6.0189 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.7835 	EXP 	Created instru_img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro1.png', interpolate=True, mask=None, maskParams=None, name='instru_img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.6, 1. ]), texRes=128, units='height', win=Window(...))
+9.0773 	EXP 	Created instru_img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro22.png', interpolate=True, mask=None, maskParams=None, name='instru_img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.67, 1.  ]), texRes=128.0, units='height', win=Window(...))
+9.3378 	EXP 	Created fixbefore_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixbefore_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.3607 	EXP 	Created rest_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/rest.png', interpolate=True, mask=None, maskParams=None, name='rest_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.857, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+9.6095 	EXP 	Created red = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.6146 	EXP 	Created green = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.6197 	EXP 	Created yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.6247 	EXP 	Created blue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.8683 	EXP 	Created Fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.8713 	EXP 	Created black = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='black', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+9.8739 	EXP 	Created red_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='red_2', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.8764 	EXP 	Created green_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='green_2', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.8792 	EXP 	Created yellow_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='yellow_2', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.8817 	EXP 	Created blue_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='blue_2', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.8829 	EXP 	Created fixation_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fixation_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.8834 	EXP 	Created docs = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='docs', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.8873 	EXP 	Created black_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/black.png', interpolate=True, mask=None, maskParams=None, name='black_com', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+9.8967 	EXP 	Created reward_sub = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/rewardsub.png', interpolate=True, mask=None, maskParams=None, name='reward_sub', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([0.365, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+9.8971 	EXP 	Created reward__sub = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='reward__sub', opacity=1.0, ori=0.0, pos=array([0.062, 0.305]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.9021 	EXP 	Created red_compare = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red_compare', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.9071 	EXP 	Created green_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green_com', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.9122 	EXP 	Created yellow_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow_com', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.9173 	EXP 	Created blue_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue_com', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.9178 	EXP 	Created bigx = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='bigx', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.9210 	EXP 	Created intertrialfix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='intertrialfix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.9376 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/end.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.661, 0.1  ]), texRes=128, units='height', win=Window(...))
+10.1899 	WARNING 	t of last frame was 4171.33ms (=1/0)
+10.1899 	EXP 	instru_img1: autoDraw = True
+10.6136 	DATA 	Keypress: space
+10.6198 	EXP 	instru_img1: autoDraw = False
+10.6198 	EXP 	instru_img2: autoDraw = True
+11.2226 	DATA 	Keypress: s
+11.2276 	WARNING 	t of last frame was 42.57ms (=1/23)
+11.2276 	EXP 	instru_img2: autoDraw = False
+11.2276 	EXP 	fixbefore_2: autoDraw = True
+12.2132 	EXP 	Imported reward_distribution_e3/reward_distribution_1.csv as conditions, 150 conditions, 4 params
+12.2152 	EXP 	Created sequence: sequential, trialTypes=150, nReps=150, seed=None
+12.2164 	EXP 	New trial (rep=0, index=0): OrderedDict([('arm1', 45), ('arm2', 42), ('arm3', 50), ('arm4', 53)])
+12.2323 	WARNING 	t of last frame was 39.17ms (=1/25)
+12.2323 	EXP 	fixbefore_2: autoDraw = False
+12.2323 	EXP 	rest_image: autoDraw = False
+12.2323 	EXP 	red: autoDraw = True
+12.2323 	EXP 	green: autoDraw = True
+12.2323 	EXP 	yellow: autoDraw = True
+12.2323 	EXP 	blue: autoDraw = True
+12.2323 	EXP 	Fixation: autoDraw = True
+12.6672 	DATA 	Keypress: i
+12.6708 	WARNING 	t of last frame was 62.62ms (=1/15)
+12.6708 	EXP 	red: autoDraw = False
+12.6708 	EXP 	green: autoDraw = False
+12.6708 	EXP 	yellow: autoDraw = False
+12.6708 	EXP 	blue: autoDraw = False
+12.6708 	EXP 	Fixation: autoDraw = False
+12.6708 	EXP 	black: image = 'pic/black.png'
+12.6708 	EXP 	red_2: image = 'pic/red.png'
+12.6708 	EXP 	green_2: image = 'pic/green.png'
+12.6708 	EXP 	yellow_2: image = 'pic/yellow.png'
+12.6708 	EXP 	blue_2: image = 'pic/blue.png'
+12.6708 	EXP 	fixation_2: height = 0.06
+12.6708 	EXP 	fixation_2: height = 0.06
+12.6708 	EXP 	fixation_2: height = 0.06
+12.6708 	EXP 	fixation_2: text = '+'
+12.6708 	EXP 	docs: height = 0.05
+12.6708 	EXP 	docs: height = 0.05
+12.6708 	EXP 	docs: height = 0.05
+12.6708 	EXP 	docs: text = '● ● ●'
+12.6708 	EXP 	black: autoDraw = True
+12.6708 	EXP 	red_2: autoDraw = True
+12.6708 	EXP 	green_2: autoDraw = True
+12.6708 	EXP 	yellow_2: autoDraw = True
+12.6708 	EXP 	blue_2: autoDraw = True
+12.6708 	EXP 	fixation_2: autoDraw = True
+12.9197 	EXP 	docs: autoDraw = True
+13.9514 	EXP 	docs: autoDraw = False
+14.0107 	EXP 	black: autoDraw = False
+14.0107 	EXP 	red_2: autoDraw = False
+14.0107 	EXP 	green_2: autoDraw = False
+14.0107 	EXP 	yellow_2: autoDraw = False
+14.0107 	EXP 	blue_2: autoDraw = False
+14.0107 	EXP 	fixation_2: autoDraw = False
+14.0107 	EXP 	black: autoDraw = False
+14.0107 	EXP 	red_2: autoDraw = False
+14.0107 	EXP 	green_2: autoDraw = False
+14.0107 	EXP 	yellow_2: autoDraw = False
+14.0107 	EXP 	blue_2: autoDraw = False
+14.0107 	EXP 	fixation_2: autoDraw = False
+14.0107 	EXP 	docs: autoDraw = False
+14.0107 	EXP 	reward__sub: height = 0.05
+14.0107 	EXP 	reward__sub: height = 0.05
+14.0107 	EXP 	reward__sub: height = 0.05
+14.0107 	EXP 	reward__sub: text = 42
+14.0107 	EXP 	black_com: autoDraw = True
+14.0107 	EXP 	reward_sub: autoDraw = True
+14.0107 	EXP 	reward__sub: autoDraw = True
+14.0107 	EXP 	red_compare: autoDraw = True
+14.0107 	EXP 	green_com: autoDraw = True
+14.0107 	EXP 	yellow_com: autoDraw = True
+14.0107 	EXP 	blue_com: autoDraw = True
+15.3530 	EXP 	black_com: autoDraw = False
+15.3530 	EXP 	reward_sub: autoDraw = False
+15.3530 	EXP 	reward__sub: autoDraw = False
+15.3530 	EXP 	red_compare: autoDraw = False
+15.3530 	EXP 	green_com: autoDraw = False
+15.3530 	EXP 	yellow_com: autoDraw = False
+15.3530 	EXP 	blue_com: autoDraw = False
+15.3530 	EXP 	black_com: autoDraw = False
+15.3530 	EXP 	reward_sub: autoDraw = False
+15.3530 	EXP 	reward__sub: autoDraw = False
+15.3530 	EXP 	red_compare: autoDraw = False
+15.3530 	EXP 	green_com: autoDraw = False
+15.3530 	EXP 	yellow_com: autoDraw = False
+15.3530 	EXP 	blue_com: autoDraw = False
+15.3530 	EXP 	bigx: height = 0.5
+15.3530 	EXP 	bigx: height = 0.5
+15.3530 	EXP 	bigx: height = 0.5
+15.3530 	EXP 	bigx: text = '×'
+15.3530 	EXP 	bigx: autoDraw = False
+15.3530 	EXP 	intertrialfix: autoDraw = True
+17.1908 	EXP 	New trial (rep=0, index=1): OrderedDict([('arm1', 32), ('arm2', 43), ('arm3', 50), ('arm4', 58)])
+17.2013 	EXP 	intertrialfix: autoDraw = False
+17.2013 	EXP 	intertrialfix: autoDraw = False
+17.2013 	EXP 	rest_image: autoDraw = False
+17.2013 	EXP 	red: autoDraw = True
+17.2013 	EXP 	green: autoDraw = True
+17.2013 	EXP 	yellow: autoDraw = True
+17.2013 	EXP 	blue: autoDraw = True
+17.2013 	EXP 	Fixation: autoDraw = True
+17.4863 	DATA 	Keypress: j
+17.4900 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+17.4900 	EXP 	red: autoDraw = False
+17.4900 	EXP 	green: autoDraw = False
+17.4900 	EXP 	yellow: autoDraw = False
+17.4900 	EXP 	blue: autoDraw = False
+17.4900 	EXP 	Fixation: autoDraw = False
+17.4900 	EXP 	black: image = 'pic/black.png'
+17.4900 	EXP 	red_2: image = 'pic/red.png'
+17.4900 	EXP 	green_2: image = 'pic/green.png'
+17.4900 	EXP 	yellow_2: image = 'pic/yellow.png'
+17.4900 	EXP 	blue_2: image = 'pic/blue.png'
+17.4900 	EXP 	fixation_2: text = '+'
+17.4900 	EXP 	docs: text = '● ● ●'
+17.4900 	EXP 	black: autoDraw = True
+17.4900 	EXP 	red_2: autoDraw = True
+17.4900 	EXP 	green_2: autoDraw = True
+17.4900 	EXP 	yellow_2: autoDraw = True
+17.4900 	EXP 	blue_2: autoDraw = True
+17.4900 	EXP 	fixation_2: autoDraw = True
+17.7469 	EXP 	docs: autoDraw = True
+19.7164 	EXP 	docs: autoDraw = False
+19.7547 	EXP 	black: autoDraw = False
+19.7547 	EXP 	red_2: autoDraw = False
+19.7547 	EXP 	green_2: autoDraw = False
+19.7547 	EXP 	yellow_2: autoDraw = False
+19.7547 	EXP 	blue_2: autoDraw = False
+19.7547 	EXP 	fixation_2: autoDraw = False
+19.7547 	EXP 	black: autoDraw = False
+19.7547 	EXP 	red_2: autoDraw = False
+19.7547 	EXP 	green_2: autoDraw = False
+19.7547 	EXP 	yellow_2: autoDraw = False
+19.7547 	EXP 	blue_2: autoDraw = False
+19.7547 	EXP 	fixation_2: autoDraw = False
+19.7547 	EXP 	docs: autoDraw = False
+19.7547 	EXP 	reward__sub: height = 0.05
+19.7547 	EXP 	reward__sub: height = 0.05
+19.7547 	EXP 	reward__sub: height = 0.05
+19.7547 	EXP 	reward__sub: text = 32
+19.7547 	EXP 	black_com: autoDraw = True
+19.7547 	EXP 	reward_sub: autoDraw = True
+19.7547 	EXP 	reward__sub: autoDraw = True
+19.7547 	EXP 	red_compare: autoDraw = True
+19.7547 	EXP 	green_com: autoDraw = True
+19.7547 	EXP 	yellow_com: autoDraw = True
+19.7547 	EXP 	blue_com: autoDraw = True
+21.4835 	DATA 	Keypress: escape
+21.6724 	EXP 	window1: mouseVisible = True
+0.8334 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+2.8720 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1512, 982]. Using actual size
+3.3235 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f7eca593cd0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f7e69f59c70>, multiSample=False, name='window1', numSamples=2, pos=[378.0, 245.5], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.3242 	EXP 	window1: mouseVisible = True
+3.3265 	EXP 	window1: mouseVisible = False
+3.3266 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+3.3266 	EXP 	window1: recordFrameIntervals = False
+3.4220 	EXP 	window1: recordFrameIntervals = True
+3.5221 	WARNING 	t of last frame was 16.20ms (=1/61)
+3.7303 	WARNING 	t of last frame was 15.20ms (=1/65)
+3.9471 	WARNING 	t of last frame was 15.96ms (=1/62)
+3.9678 	WARNING 	t of last frame was 20.69ms (=1/48)
+3.9890 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+4.2974 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+6.0461 	EXP 	Created instru_img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro1.png', interpolate=True, mask=None, maskParams=None, name='instru_img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.6, 1. ]), texRes=128, units='height', win=Window(...))
+7.3405 	EXP 	Created instru_img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro22.png', interpolate=True, mask=None, maskParams=None, name='instru_img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.67, 1.  ]), texRes=128.0, units='height', win=Window(...))
+7.6040 	EXP 	Created fixbefore_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixbefore_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+7.6271 	EXP 	Created rest_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/rest.png', interpolate=True, mask=None, maskParams=None, name='rest_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.857, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+7.8796 	EXP 	Created red = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+7.8847 	EXP 	Created green = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+7.8898 	EXP 	Created yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+7.8949 	EXP 	Created blue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.1425 	EXP 	Created Fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.1456 	EXP 	Created black = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='black', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+8.1483 	EXP 	Created red_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='red_2', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.1509 	EXP 	Created green_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='green_2', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.1533 	EXP 	Created yellow_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='yellow_2', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.1559 	EXP 	Created blue_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='blue_2', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.1571 	EXP 	Created fixation_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fixation_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.1576 	EXP 	Created docs = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='docs', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.1615 	EXP 	Created black_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/black.png', interpolate=True, mask=None, maskParams=None, name='black_com', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+8.1710 	EXP 	Created reward_sub = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/rewardsub.png', interpolate=True, mask=None, maskParams=None, name='reward_sub', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([0.365, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+8.1714 	EXP 	Created reward__sub = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='reward__sub', opacity=1.0, ori=0.0, pos=array([0.064, 0.305]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.1764 	EXP 	Created red_compare = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red_compare', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.1815 	EXP 	Created green_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green_com', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.1865 	EXP 	Created yellow_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow_com', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.1915 	EXP 	Created blue_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue_com', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.1920 	EXP 	Created bigx = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='bigx', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.1946 	EXP 	Created intertrialfix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='intertrialfix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.2118 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/end.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.661, 0.1  ]), texRes=128, units='height', win=Window(...))
+8.4681 	EXP 	instru_img1: autoDraw = True
+8.9588 	DATA 	Keypress: space
+8.9674 	EXP 	instru_img1: autoDraw = False
+8.9674 	EXP 	instru_img2: autoDraw = True
+9.4611 	DATA 	Keypress: s
+9.4659 	EXP 	instru_img2: autoDraw = False
+9.4659 	EXP 	fixbefore_2: autoDraw = True
+10.4531 	EXP 	Imported reward_distribution_e3/reward_distribution_1.csv as conditions, 150 conditions, 4 params
+10.4552 	EXP 	Created sequence: sequential, trialTypes=150, nReps=150, seed=None
+10.4562 	EXP 	New trial (rep=0, index=0): OrderedDict([('arm1', 45), ('arm2', 42), ('arm3', 50), ('arm4', 53)])
+10.4738 	EXP 	fixbefore_2: autoDraw = False
+10.4738 	EXP 	rest_image: autoDraw = False
+10.4738 	EXP 	red: autoDraw = True
+10.4738 	EXP 	green: autoDraw = True
+10.4738 	EXP 	yellow: autoDraw = True
+10.4738 	EXP 	blue: autoDraw = True
+10.4738 	EXP 	Fixation: autoDraw = True
+10.7522 	DATA 	Keypress: i
+10.7560 	EXP 	red: autoDraw = False
+10.7560 	EXP 	green: autoDraw = False
+10.7560 	EXP 	yellow: autoDraw = False
+10.7560 	EXP 	blue: autoDraw = False
+10.7560 	EXP 	Fixation: autoDraw = False
+10.7560 	EXP 	black: image = 'pic/black.png'
+10.7560 	EXP 	red_2: image = 'pic/red.png'
+10.7560 	EXP 	green_2: image = 'pic/green.png'
+10.7560 	EXP 	yellow_2: image = 'pic/yellow.png'
+10.7560 	EXP 	blue_2: image = 'pic/blue.png'
+10.7560 	EXP 	fixation_2: height = 0.06
+10.7560 	EXP 	fixation_2: height = 0.06
+10.7560 	EXP 	fixation_2: height = 0.06
+10.7560 	EXP 	fixation_2: text = '+'
+10.7560 	EXP 	docs: height = 0.05
+10.7560 	EXP 	docs: height = 0.05
+10.7560 	EXP 	docs: height = 0.05
+10.7560 	EXP 	docs: text = '● ● ●'
+10.7560 	EXP 	black: autoDraw = True
+10.7560 	EXP 	red_2: autoDraw = True
+10.7560 	EXP 	green_2: autoDraw = True
+10.7560 	EXP 	yellow_2: autoDraw = True
+10.7560 	EXP 	blue_2: autoDraw = True
+10.7560 	EXP 	fixation_2: autoDraw = True
+11.0089 	EXP 	docs: autoDraw = True
+12.9292 	EXP 	docs: autoDraw = False
+12.9916 	EXP 	black: autoDraw = False
+12.9916 	EXP 	red_2: autoDraw = False
+12.9916 	EXP 	green_2: autoDraw = False
+12.9916 	EXP 	yellow_2: autoDraw = False
+12.9916 	EXP 	blue_2: autoDraw = False
+12.9916 	EXP 	fixation_2: autoDraw = False
+12.9916 	EXP 	black: autoDraw = False
+12.9916 	EXP 	red_2: autoDraw = False
+12.9916 	EXP 	green_2: autoDraw = False
+12.9916 	EXP 	yellow_2: autoDraw = False
+12.9916 	EXP 	blue_2: autoDraw = False
+12.9916 	EXP 	fixation_2: autoDraw = False
+12.9916 	EXP 	docs: autoDraw = False
+12.9916 	EXP 	reward__sub: height = 0.05
+12.9916 	EXP 	reward__sub: height = 0.05
+12.9916 	EXP 	reward__sub: height = 0.05
+12.9916 	EXP 	reward__sub: text = 53
+12.9916 	EXP 	black_com: autoDraw = True
+12.9916 	EXP 	reward_sub: autoDraw = True
+12.9916 	EXP 	reward__sub: autoDraw = True
+12.9916 	EXP 	red_compare: autoDraw = True
+12.9916 	EXP 	green_com: autoDraw = True
+12.9916 	EXP 	yellow_com: autoDraw = True
+12.9916 	EXP 	blue_com: autoDraw = True
+15.2280 	EXP 	black_com: autoDraw = False
+15.2280 	EXP 	reward_sub: autoDraw = False
+15.2280 	EXP 	reward__sub: autoDraw = False
+15.2280 	EXP 	red_compare: autoDraw = False
+15.2280 	EXP 	green_com: autoDraw = False
+15.2280 	EXP 	yellow_com: autoDraw = False
+15.2280 	EXP 	blue_com: autoDraw = False
+15.2280 	EXP 	black_com: autoDraw = False
+15.2280 	EXP 	reward_sub: autoDraw = False
+15.2280 	EXP 	reward__sub: autoDraw = False
+15.2280 	EXP 	red_compare: autoDraw = False
+15.2280 	EXP 	green_com: autoDraw = False
+15.2280 	EXP 	yellow_com: autoDraw = False
+15.2280 	EXP 	blue_com: autoDraw = False
+15.2280 	EXP 	bigx: height = 0.5
+15.2280 	EXP 	bigx: height = 0.5
+15.2280 	EXP 	bigx: height = 0.5
+15.2280 	EXP 	bigx: text = '×'
+15.2280 	EXP 	bigx: autoDraw = False
+15.2280 	EXP 	intertrialfix: autoDraw = True
+16.1275 	DATA 	Keypress: j
+16.7784 	EXP 	New trial (rep=0, index=1): OrderedDict([('arm1', 32), ('arm2', 43), ('arm3', 50), ('arm4', 58)])
+16.7931 	EXP 	intertrialfix: autoDraw = False
+16.7931 	EXP 	intertrialfix: autoDraw = False
+16.7931 	EXP 	rest_image: autoDraw = False
+16.7931 	EXP 	red: autoDraw = True
+16.7931 	EXP 	green: autoDraw = True
+16.7931 	EXP 	yellow: autoDraw = True
+16.7931 	EXP 	blue: autoDraw = True
+16.7931 	EXP 	Fixation: autoDraw = True
+17.2061 	DATA 	Keypress: j
+17.2098 	EXP 	red: autoDraw = False
+17.2098 	EXP 	green: autoDraw = False
+17.2098 	EXP 	yellow: autoDraw = False
+17.2098 	EXP 	blue: autoDraw = False
+17.2098 	EXP 	Fixation: autoDraw = False
+17.2098 	EXP 	black: image = 'pic/black.png'
+17.2098 	EXP 	red_2: image = 'pic/red.png'
+17.2098 	EXP 	green_2: image = 'pic/green.png'
+17.2098 	EXP 	yellow_2: image = 'pic/yellow.png'
+17.2098 	EXP 	blue_2: image = 'pic/blue.png'
+17.2098 	EXP 	fixation_2: text = '+'
+17.2098 	EXP 	docs: text = '● ● ●'
+17.2098 	EXP 	black: autoDraw = True
+17.2098 	EXP 	red_2: autoDraw = True
+17.2098 	EXP 	green_2: autoDraw = True
+17.2098 	EXP 	yellow_2: autoDraw = True
+17.2098 	EXP 	blue_2: autoDraw = True
+17.2098 	EXP 	fixation_2: autoDraw = True
+17.4674 	EXP 	docs: autoDraw = True
+18.8174 	EXP 	docs: autoDraw = False
+18.8526 	EXP 	black: autoDraw = False
+18.8526 	EXP 	red_2: autoDraw = False
+18.8526 	EXP 	green_2: autoDraw = False
+18.8526 	EXP 	yellow_2: autoDraw = False
+18.8526 	EXP 	blue_2: autoDraw = False
+18.8526 	EXP 	fixation_2: autoDraw = False
+18.8526 	EXP 	black: autoDraw = False
+18.8526 	EXP 	red_2: autoDraw = False
+18.8526 	EXP 	green_2: autoDraw = False
+18.8526 	EXP 	yellow_2: autoDraw = False
+18.8526 	EXP 	blue_2: autoDraw = False
+18.8526 	EXP 	fixation_2: autoDraw = False
+18.8526 	EXP 	docs: autoDraw = False
+18.8526 	EXP 	reward__sub: height = 0.05
+18.8526 	EXP 	reward__sub: height = 0.05
+18.8526 	EXP 	reward__sub: height = 0.05
+18.8526 	EXP 	reward__sub: text = 43
+18.8526 	EXP 	black_com: autoDraw = True
+18.8526 	EXP 	reward_sub: autoDraw = True
+18.8526 	EXP 	reward__sub: autoDraw = True
+18.8526 	EXP 	red_compare: autoDraw = True
+18.8526 	EXP 	green_com: autoDraw = True
+18.8526 	EXP 	yellow_com: autoDraw = True
+18.8526 	EXP 	blue_com: autoDraw = True
+20.5007 	EXP 	black_com: autoDraw = False
+20.5007 	EXP 	reward_sub: autoDraw = False
+20.5007 	EXP 	reward__sub: autoDraw = False
+20.5007 	EXP 	red_compare: autoDraw = False
+20.5007 	EXP 	green_com: autoDraw = False
+20.5007 	EXP 	yellow_com: autoDraw = False
+20.5007 	EXP 	blue_com: autoDraw = False
+20.5007 	EXP 	black_com: autoDraw = False
+20.5007 	EXP 	reward_sub: autoDraw = False
+20.5007 	EXP 	reward__sub: autoDraw = False
+20.5007 	EXP 	red_compare: autoDraw = False
+20.5007 	EXP 	green_com: autoDraw = False
+20.5007 	EXP 	yellow_com: autoDraw = False
+20.5007 	EXP 	blue_com: autoDraw = False
+20.5007 	EXP 	bigx: text = '×'
+20.5007 	EXP 	bigx: autoDraw = False
+20.5007 	EXP 	intertrialfix: autoDraw = True
+21.3525 	DATA 	Keypress: escape
+21.5708 	EXP 	window1: mouseVisible = True
+0.8311 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.2266 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1512, 982]. Using actual size
+7.6629 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fea12eb2be0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fe9c783eb80>, multiSample=False, name='window1', numSamples=2, pos=[378.0, 245.5], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.6638 	EXP 	window1: mouseVisible = True
+7.6658 	EXP 	window1: mouseVisible = False
+7.6659 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.6659 	EXP 	window1: recordFrameIntervals = False
+7.7871 	EXP 	window1: recordFrameIntervals = True
+7.9250 	EXP 	Screen (0) actual frame rate measured at 79.82Hz
+7.9251 	EXP 	window1: recordFrameIntervals = False
+9.6657 	EXP 	Created instru_img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro1.png', interpolate=True, mask=None, maskParams=None, name='instru_img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.6, 1. ]), texRes=128, units='height', win=Window(...))
+10.9913 	EXP 	Created instru_img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro22.png', interpolate=True, mask=None, maskParams=None, name='instru_img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.67, 1.  ]), texRes=128.0, units='height', win=Window(...))
+11.2537 	EXP 	Created fixbefore_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixbefore_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+11.2766 	EXP 	Created rest_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/rest.png', interpolate=True, mask=None, maskParams=None, name='rest_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.857, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+11.5286 	EXP 	Created red = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+11.5337 	EXP 	Created green = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+11.5387 	EXP 	Created yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+11.5438 	EXP 	Created blue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+11.7893 	EXP 	Created Fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+11.7924 	EXP 	Created black = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='black', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+11.7950 	EXP 	Created red_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='red_2', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+11.7976 	EXP 	Created green_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='green_2', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+11.8001 	EXP 	Created yellow_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='yellow_2', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+11.8027 	EXP 	Created blue_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='blue_2', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+11.8039 	EXP 	Created fixation_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fixation_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.8043 	EXP 	Created docs = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='docs', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.8083 	EXP 	Created black_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/black.png', interpolate=True, mask=None, maskParams=None, name='black_com', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+11.8183 	EXP 	Created reward_sub = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/rewardsub.png', interpolate=True, mask=None, maskParams=None, name='reward_sub', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([0.365, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+11.8187 	EXP 	Created reward__sub = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='reward__sub', opacity=1.0, ori=0.0, pos=array([0.0645, 0.305 ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.8243 	EXP 	Created red_compare = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red_compare', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+11.8295 	EXP 	Created green_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green_com', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+11.8345 	EXP 	Created yellow_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow_com', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+11.8395 	EXP 	Created blue_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue_com', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+11.8401 	EXP 	Created bigx = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='bigx', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.8431 	EXP 	Created intertrialfix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='intertrialfix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+11.8609 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/end.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.661, 0.1  ]), texRes=128, units='height', win=Window(...))
+12.1132 	DATA 	Keypress: space
+12.1224 	EXP 	instru_img1: autoDraw = True
+12.5728 	DATA 	Keypress: space
+12.5776 	EXP 	instru_img1: autoDraw = False
+12.5776 	EXP 	instru_img2: autoDraw = True
+13.2880 	DATA 	Keypress: s
+13.2930 	EXP 	instru_img2: autoDraw = False
+13.2930 	EXP 	fixbefore_2: autoDraw = True
+14.2721 	EXP 	Imported reward_distribution_e3/reward_distribution_1.csv as conditions, 150 conditions, 4 params
+14.2741 	EXP 	Created sequence: sequential, trialTypes=150, nReps=150, seed=None
+14.2753 	EXP 	New trial (rep=0, index=0): OrderedDict([('arm1', 45), ('arm2', 42), ('arm3', 50), ('arm4', 53)])
+14.2926 	EXP 	fixbefore_2: autoDraw = False
+14.2926 	EXP 	rest_image: autoDraw = False
+14.2926 	EXP 	red: autoDraw = True
+14.2926 	EXP 	green: autoDraw = True
+14.2926 	EXP 	yellow: autoDraw = True
+14.2926 	EXP 	blue: autoDraw = True
+14.2926 	EXP 	Fixation: autoDraw = True
+14.6013 	DATA 	Keypress: i
+14.6051 	EXP 	red: autoDraw = False
+14.6051 	EXP 	green: autoDraw = False
+14.6051 	EXP 	yellow: autoDraw = False
+14.6051 	EXP 	blue: autoDraw = False
+14.6051 	EXP 	Fixation: autoDraw = False
+14.6051 	EXP 	black: image = 'pic/black.png'
+14.6051 	EXP 	red_2: image = 'pic/red.png'
+14.6051 	EXP 	green_2: image = 'pic/green.png'
+14.6051 	EXP 	yellow_2: image = 'pic/yellow.png'
+14.6051 	EXP 	blue_2: image = 'pic/blue.png'
+14.6051 	EXP 	fixation_2: height = 0.06
+14.6051 	EXP 	fixation_2: height = 0.06
+14.6051 	EXP 	fixation_2: height = 0.06
+14.6051 	EXP 	fixation_2: text = '+'
+14.6051 	EXP 	docs: height = 0.05
+14.6051 	EXP 	docs: height = 0.05
+14.6051 	EXP 	docs: height = 0.05
+14.6051 	EXP 	docs: text = '● ● ●'
+14.6051 	EXP 	black: autoDraw = True
+14.6051 	EXP 	red_2: autoDraw = True
+14.6051 	EXP 	green_2: autoDraw = True
+14.6051 	EXP 	yellow_2: autoDraw = True
+14.6051 	EXP 	blue_2: autoDraw = True
+14.6051 	EXP 	fixation_2: autoDraw = True
+14.8571 	EXP 	docs: autoDraw = True
+16.0882 	EXP 	docs: autoDraw = False
+16.1402 	EXP 	black: autoDraw = False
+16.1402 	EXP 	red_2: autoDraw = False
+16.1402 	EXP 	green_2: autoDraw = False
+16.1402 	EXP 	yellow_2: autoDraw = False
+16.1402 	EXP 	blue_2: autoDraw = False
+16.1402 	EXP 	fixation_2: autoDraw = False
+16.1402 	EXP 	black: autoDraw = False
+16.1402 	EXP 	red_2: autoDraw = False
+16.1402 	EXP 	green_2: autoDraw = False
+16.1402 	EXP 	yellow_2: autoDraw = False
+16.1402 	EXP 	blue_2: autoDraw = False
+16.1402 	EXP 	fixation_2: autoDraw = False
+16.1402 	EXP 	docs: autoDraw = False
+16.1402 	EXP 	reward__sub: height = 0.05
+16.1402 	EXP 	reward__sub: height = 0.05
+16.1402 	EXP 	reward__sub: height = 0.05
+16.1402 	EXP 	reward__sub: text = 42
+16.1402 	EXP 	black_com: autoDraw = True
+16.1402 	EXP 	reward_sub: autoDraw = True
+16.1402 	EXP 	reward__sub: autoDraw = True
+16.1402 	EXP 	red_compare: autoDraw = True
+16.1402 	EXP 	green_com: autoDraw = True
+16.1402 	EXP 	yellow_com: autoDraw = True
+16.1402 	EXP 	blue_com: autoDraw = True
+17.6725 	EXP 	black_com: autoDraw = False
+17.6725 	EXP 	reward_sub: autoDraw = False
+17.6725 	EXP 	reward__sub: autoDraw = False
+17.6725 	EXP 	red_compare: autoDraw = False
+17.6725 	EXP 	green_com: autoDraw = False
+17.6725 	EXP 	yellow_com: autoDraw = False
+17.6725 	EXP 	blue_com: autoDraw = False
+17.6725 	EXP 	black_com: autoDraw = False
+17.6725 	EXP 	reward_sub: autoDraw = False
+17.6725 	EXP 	reward__sub: autoDraw = False
+17.6725 	EXP 	red_compare: autoDraw = False
+17.6725 	EXP 	green_com: autoDraw = False
+17.6725 	EXP 	yellow_com: autoDraw = False
+17.6725 	EXP 	blue_com: autoDraw = False
+17.6725 	EXP 	bigx: height = 0.5
+17.6725 	EXP 	bigx: height = 0.5
+17.6725 	EXP 	bigx: height = 0.5
+17.6725 	EXP 	bigx: text = '×'
+17.6725 	EXP 	bigx: autoDraw = False
+17.6725 	EXP 	intertrialfix: autoDraw = True
+19.4651 	EXP 	New trial (rep=0, index=1): OrderedDict([('arm1', 32), ('arm2', 43), ('arm3', 50), ('arm4', 58)])
+19.4710 	EXP 	intertrialfix: autoDraw = False
+19.4710 	EXP 	intertrialfix: autoDraw = False
+19.4710 	EXP 	rest_image: autoDraw = False
+19.4710 	EXP 	red: autoDraw = True
+19.4710 	EXP 	green: autoDraw = True
+19.4710 	EXP 	yellow: autoDraw = True
+19.4710 	EXP 	blue: autoDraw = True
+19.4710 	EXP 	Fixation: autoDraw = True
+19.7500 	DATA 	Keypress: j
+19.7539 	EXP 	red: autoDraw = False
+19.7539 	EXP 	green: autoDraw = False
+19.7539 	EXP 	yellow: autoDraw = False
+19.7539 	EXP 	blue: autoDraw = False
+19.7539 	EXP 	Fixation: autoDraw = False
+19.7539 	EXP 	black: image = 'pic/black.png'
+19.7539 	EXP 	red_2: image = 'pic/red.png'
+19.7539 	EXP 	green_2: image = 'pic/green.png'
+19.7539 	EXP 	yellow_2: image = 'pic/yellow.png'
+19.7539 	EXP 	blue_2: image = 'pic/blue.png'
+19.7539 	EXP 	fixation_2: text = '+'
+19.7539 	EXP 	docs: text = '● ● ●'
+19.7539 	EXP 	black: autoDraw = True
+19.7539 	EXP 	red_2: autoDraw = True
+19.7539 	EXP 	green_2: autoDraw = True
+19.7539 	EXP 	yellow_2: autoDraw = True
+19.7539 	EXP 	blue_2: autoDraw = True
+19.7539 	EXP 	fixation_2: autoDraw = True
+20.0281 	EXP 	docs: autoDraw = True
+21.9409 	EXP 	docs: autoDraw = False
+21.9697 	EXP 	black: autoDraw = False
+21.9697 	EXP 	red_2: autoDraw = False
+21.9697 	EXP 	green_2: autoDraw = False
+21.9697 	EXP 	yellow_2: autoDraw = False
+21.9697 	EXP 	blue_2: autoDraw = False
+21.9697 	EXP 	fixation_2: autoDraw = False
+21.9697 	EXP 	black: autoDraw = False
+21.9697 	EXP 	red_2: autoDraw = False
+21.9697 	EXP 	green_2: autoDraw = False
+21.9697 	EXP 	yellow_2: autoDraw = False
+21.9697 	EXP 	blue_2: autoDraw = False
+21.9697 	EXP 	fixation_2: autoDraw = False
+21.9697 	EXP 	docs: autoDraw = False
+21.9697 	EXP 	reward__sub: height = 0.05
+21.9697 	EXP 	reward__sub: height = 0.05
+21.9697 	EXP 	reward__sub: height = 0.05
+21.9697 	EXP 	reward__sub: text = 58
+21.9697 	EXP 	black_com: autoDraw = True
+21.9697 	EXP 	reward_sub: autoDraw = True
+21.9697 	EXP 	reward__sub: autoDraw = True
+21.9697 	EXP 	red_compare: autoDraw = True
+21.9697 	EXP 	green_com: autoDraw = True
+21.9697 	EXP 	yellow_com: autoDraw = True
+21.9697 	EXP 	blue_com: autoDraw = True
+24.1908 	EXP 	black_com: autoDraw = False
+24.1908 	EXP 	reward_sub: autoDraw = False
+24.1908 	EXP 	reward__sub: autoDraw = False
+24.1908 	EXP 	red_compare: autoDraw = False
+24.1908 	EXP 	green_com: autoDraw = False
+24.1908 	EXP 	yellow_com: autoDraw = False
+24.1908 	EXP 	blue_com: autoDraw = False
+24.1908 	EXP 	black_com: autoDraw = False
+24.1908 	EXP 	reward_sub: autoDraw = False
+24.1908 	EXP 	reward__sub: autoDraw = False
+24.1908 	EXP 	red_compare: autoDraw = False
+24.1908 	EXP 	green_com: autoDraw = False
+24.1908 	EXP 	yellow_com: autoDraw = False
+24.1908 	EXP 	blue_com: autoDraw = False
+24.1908 	EXP 	bigx: text = '×'
+24.1908 	EXP 	bigx: autoDraw = False
+24.1908 	EXP 	intertrialfix: autoDraw = True
+25.9309 	EXP 	New trial (rep=0, index=2): OrderedDict([('arm1', 43), ('arm2', 50), ('arm3', 57), ('arm4', 55)])
+25.9388 	EXP 	intertrialfix: autoDraw = False
+25.9388 	EXP 	intertrialfix: autoDraw = False
+25.9388 	EXP 	rest_image: autoDraw = False
+25.9388 	EXP 	red: autoDraw = True
+25.9388 	EXP 	green: autoDraw = True
+25.9388 	EXP 	yellow: autoDraw = True
+25.9388 	EXP 	blue: autoDraw = True
+25.9388 	EXP 	Fixation: autoDraw = True
+26.2833 	DATA 	Keypress: r
+26.2873 	EXP 	red: autoDraw = False
+26.2873 	EXP 	green: autoDraw = False
+26.2873 	EXP 	yellow: autoDraw = False
+26.2873 	EXP 	blue: autoDraw = False
+26.2873 	EXP 	Fixation: autoDraw = False
+26.2873 	EXP 	black: image = 'pic/black.png'
+26.2873 	EXP 	red_2: image = 'pic/red.png'
+26.2873 	EXP 	green_2: image = 'pic/green.png'
+26.2873 	EXP 	yellow_2: image = 'pic/yellow.png'
+26.2873 	EXP 	blue_2: image = 'pic/blue.png'
+26.2873 	EXP 	fixation_2: text = '+'
+26.2873 	EXP 	docs: text = '● ● ●'
+26.2873 	EXP 	black: autoDraw = True
+26.2873 	EXP 	red_2: autoDraw = True
+26.2873 	EXP 	green_2: autoDraw = True
+26.2873 	EXP 	yellow_2: autoDraw = True
+26.2873 	EXP 	blue_2: autoDraw = True
+26.2873 	EXP 	fixation_2: autoDraw = True
+26.5465 	EXP 	docs: autoDraw = True
+27.7955 	EXP 	docs: autoDraw = False
+27.8342 	EXP 	black: autoDraw = False
+27.8342 	EXP 	red_2: autoDraw = False
+27.8342 	EXP 	green_2: autoDraw = False
+27.8342 	EXP 	yellow_2: autoDraw = False
+27.8342 	EXP 	blue_2: autoDraw = False
+27.8342 	EXP 	fixation_2: autoDraw = False
+27.8342 	EXP 	black: autoDraw = False
+27.8342 	EXP 	red_2: autoDraw = False
+27.8342 	EXP 	green_2: autoDraw = False
+27.8342 	EXP 	yellow_2: autoDraw = False
+27.8342 	EXP 	blue_2: autoDraw = False
+27.8342 	EXP 	fixation_2: autoDraw = False
+27.8342 	EXP 	docs: autoDraw = False
+27.8342 	EXP 	reward__sub: height = 0.05
+27.8342 	EXP 	reward__sub: height = 0.05
+27.8342 	EXP 	reward__sub: height = 0.05
+27.8342 	EXP 	reward__sub: text = 43
+27.8342 	EXP 	black_com: autoDraw = True
+27.8342 	EXP 	reward_sub: autoDraw = True
+27.8342 	EXP 	reward__sub: autoDraw = True
+27.8342 	EXP 	red_compare: autoDraw = True
+27.8342 	EXP 	green_com: autoDraw = True
+27.8342 	EXP 	yellow_com: autoDraw = True
+27.8342 	EXP 	blue_com: autoDraw = True
+29.3781 	EXP 	black_com: autoDraw = False
+29.3781 	EXP 	reward_sub: autoDraw = False
+29.3781 	EXP 	reward__sub: autoDraw = False
+29.3781 	EXP 	red_compare: autoDraw = False
+29.3781 	EXP 	green_com: autoDraw = False
+29.3781 	EXP 	yellow_com: autoDraw = False
+29.3781 	EXP 	blue_com: autoDraw = False
+29.3781 	EXP 	black_com: autoDraw = False
+29.3781 	EXP 	reward_sub: autoDraw = False
+29.3781 	EXP 	reward__sub: autoDraw = False
+29.3781 	EXP 	red_compare: autoDraw = False
+29.3781 	EXP 	green_com: autoDraw = False
+29.3781 	EXP 	yellow_com: autoDraw = False
+29.3781 	EXP 	blue_com: autoDraw = False
+29.3781 	EXP 	bigx: text = '×'
+29.3781 	EXP 	bigx: autoDraw = False
+29.3781 	EXP 	intertrialfix: autoDraw = True
+29.7585 	DATA 	Keypress: f
+31.0970 	EXP 	New trial (rep=0, index=3): OrderedDict([('arm1', 42), ('arm2', 44), ('arm3', 52), ('arm4', 56)])
+31.1205 	EXP 	intertrialfix: autoDraw = False
+31.1205 	EXP 	intertrialfix: autoDraw = False
+31.1205 	EXP 	rest_image: autoDraw = False
+31.1205 	EXP 	red: autoDraw = True
+31.1205 	EXP 	green: autoDraw = True
+31.1205 	EXP 	yellow: autoDraw = True
+31.1205 	EXP 	blue: autoDraw = True
+31.1205 	EXP 	Fixation: autoDraw = True
+31.3705 	DATA 	Keypress: f
+31.3743 	EXP 	red: autoDraw = False
+31.3743 	EXP 	green: autoDraw = False
+31.3743 	EXP 	yellow: autoDraw = False
+31.3743 	EXP 	blue: autoDraw = False
+31.3743 	EXP 	Fixation: autoDraw = False
+31.3743 	EXP 	black: image = 'pic/black.png'
+31.3743 	EXP 	red_2: image = 'pic/red.png'
+31.3743 	EXP 	green_2: image = 'pic/green.png'
+31.3743 	EXP 	yellow_2: image = 'pic/yellow.png'
+31.3743 	EXP 	blue_2: image = 'pic/blue.png'
+31.3743 	EXP 	fixation_2: text = '+'
+31.3743 	EXP 	docs: text = '● ● ●'
+31.3743 	EXP 	black: autoDraw = True
+31.3743 	EXP 	red_2: autoDraw = True
+31.3743 	EXP 	green_2: autoDraw = True
+31.3743 	EXP 	yellow_2: autoDraw = True
+31.3743 	EXP 	blue_2: autoDraw = True
+31.3743 	EXP 	fixation_2: autoDraw = True
+31.6353 	EXP 	docs: autoDraw = True
+33.4439 	EXP 	docs: autoDraw = False
+33.4794 	EXP 	black: autoDraw = False
+33.4794 	EXP 	red_2: autoDraw = False
+33.4794 	EXP 	green_2: autoDraw = False
+33.4794 	EXP 	yellow_2: autoDraw = False
+33.4794 	EXP 	blue_2: autoDraw = False
+33.4794 	EXP 	fixation_2: autoDraw = False
+33.4794 	EXP 	black: autoDraw = False
+33.4794 	EXP 	red_2: autoDraw = False
+33.4794 	EXP 	green_2: autoDraw = False
+33.4794 	EXP 	yellow_2: autoDraw = False
+33.4794 	EXP 	blue_2: autoDraw = False
+33.4794 	EXP 	fixation_2: autoDraw = False
+33.4794 	EXP 	docs: autoDraw = False
+33.4794 	EXP 	reward__sub: height = 0.05
+33.4794 	EXP 	reward__sub: height = 0.05
+33.4794 	EXP 	reward__sub: height = 0.05
+33.4794 	EXP 	reward__sub: text = 52
+33.4794 	EXP 	black_com: autoDraw = True
+33.4794 	EXP 	reward_sub: autoDraw = True
+33.4794 	EXP 	reward__sub: autoDraw = True
+33.4794 	EXP 	red_compare: autoDraw = True
+33.4794 	EXP 	green_com: autoDraw = True
+33.4794 	EXP 	yellow_com: autoDraw = True
+33.4794 	EXP 	blue_com: autoDraw = True
+34.4825 	DATA 	Keypress: escape
+34.7993 	EXP 	window1: mouseVisible = True
+0.8275 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+2.9187 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1512, 982]. Using actual size
+4.0406 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+4.0418 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fcffa417c70>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fcfa5906a00>, multiSample=False, name='window1', numSamples=2, pos=[378.0, 245.5], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.0424 	EXP 	window1: mouseVisible = True
+4.0451 	EXP 	window1: mouseVisible = False
+4.0451 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.0452 	EXP 	window1: recordFrameIntervals = False
+4.1270 	EXP 	window1: recordFrameIntervals = True
+4.9656 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+6.7149 	EXP 	Created instru_img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro1.png', interpolate=True, mask=None, maskParams=None, name='instru_img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.6, 1. ]), texRes=128, units='height', win=Window(...))
+8.0083 	EXP 	Created instru_img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro22.png', interpolate=True, mask=None, maskParams=None, name='instru_img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.67, 1.  ]), texRes=128.0, units='height', win=Window(...))
+8.2703 	EXP 	Created fixbefore_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixbefore_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.2933 	EXP 	Created rest_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/rest.png', interpolate=True, mask=None, maskParams=None, name='rest_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.857, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+8.5438 	EXP 	Created red = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.5489 	EXP 	Created green = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.5539 	EXP 	Created yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.5589 	EXP 	Created blue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.8029 	EXP 	Created Fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.8061 	EXP 	Created black = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='black', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+8.8087 	EXP 	Created red_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='red_2', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.8114 	EXP 	Created green_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='green_2', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.8139 	EXP 	Created yellow_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='yellow_2', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.8166 	EXP 	Created blue_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='blue_2', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.8177 	EXP 	Created fixation_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fixation_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.8182 	EXP 	Created docs = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='docs', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.8221 	EXP 	Created black_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/black.png', interpolate=True, mask=None, maskParams=None, name='black_com', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+8.8316 	EXP 	Created reward_sub = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/rewardsub.png', interpolate=True, mask=None, maskParams=None, name='reward_sub', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([0.365, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+8.8319 	EXP 	Created reward__sub = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='reward__sub', opacity=1.0, ori=0.0, pos=array([0.0647, 0.305 ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.8369 	EXP 	Created red_compare = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red_compare', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.8420 	EXP 	Created green_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green_com', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.8469 	EXP 	Created yellow_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow_com', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.8519 	EXP 	Created blue_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue_com', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+8.8524 	EXP 	Created bigx = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='bigx', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.8548 	EXP 	Created intertrialfix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='intertrialfix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.8717 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/end.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.661, 0.1  ]), texRes=128, units='height', win=Window(...))
+9.1246 	WARNING 	t of last frame was 4159.37ms (=1/0)
+9.1246 	EXP 	instru_img1: autoDraw = True
+9.4901 	DATA 	Keypress: space
+9.4980 	WARNING 	t of last frame was 20.38ms (=1/49)
+9.4980 	EXP 	instru_img1: autoDraw = False
+9.4980 	EXP 	instru_img2: autoDraw = True
+9.9082 	DATA 	Keypress: s
+9.9133 	WARNING 	t of last frame was 48.63ms (=1/20)
+9.9133 	EXP 	instru_img2: autoDraw = False
+9.9133 	EXP 	fixbefore_2: autoDraw = True
+10.8877 	EXP 	Imported reward_distribution_e3/reward_distribution_1.csv as conditions, 150 conditions, 4 params
+10.8897 	EXP 	Created sequence: sequential, trialTypes=150, nReps=150, seed=None
+10.8907 	EXP 	New trial (rep=0, index=0): OrderedDict([('arm1', 45), ('arm2', 42), ('arm3', 50), ('arm4', 53)])
+10.9064 	WARNING 	t of last frame was 35.98ms (=1/27)
+10.9064 	EXP 	fixbefore_2: autoDraw = False
+10.9064 	EXP 	rest_image: autoDraw = False
+10.9064 	EXP 	red: autoDraw = True
+10.9064 	EXP 	green: autoDraw = True
+10.9064 	EXP 	yellow: autoDraw = True
+10.9064 	EXP 	blue: autoDraw = True
+10.9064 	EXP 	Fixation: autoDraw = True
+11.2049 	DATA 	Keypress: i
+11.2084 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+11.2083 	EXP 	red: autoDraw = False
+11.2083 	EXP 	green: autoDraw = False
+11.2083 	EXP 	yellow: autoDraw = False
+11.2083 	EXP 	blue: autoDraw = False
+11.2083 	EXP 	Fixation: autoDraw = False
+11.2083 	EXP 	black: image = 'pic/black.png'
+11.2083 	EXP 	red_2: image = 'pic/red.png'
+11.2083 	EXP 	green_2: image = 'pic/green.png'
+11.2083 	EXP 	yellow_2: image = 'pic/yellow.png'
+11.2083 	EXP 	blue_2: image = 'pic/blue.png'
+11.2083 	EXP 	fixation_2: height = 0.06
+11.2083 	EXP 	fixation_2: height = 0.06
+11.2083 	EXP 	fixation_2: height = 0.06
+11.2083 	EXP 	fixation_2: text = '+'
+11.2083 	EXP 	docs: height = 0.05
+11.2083 	EXP 	docs: height = 0.05
+11.2083 	EXP 	docs: height = 0.05
+11.2083 	EXP 	docs: text = '● ● ●'
+11.2083 	EXP 	black: autoDraw = True
+11.2083 	EXP 	red_2: autoDraw = True
+11.2083 	EXP 	green_2: autoDraw = True
+11.2083 	EXP 	yellow_2: autoDraw = True
+11.2083 	EXP 	blue_2: autoDraw = True
+11.2083 	EXP 	fixation_2: autoDraw = True
+11.4676 	EXP 	docs: autoDraw = True
+12.7840 	EXP 	docs: autoDraw = False
+12.8221 	EXP 	black: autoDraw = False
+12.8221 	EXP 	red_2: autoDraw = False
+12.8221 	EXP 	green_2: autoDraw = False
+12.8221 	EXP 	yellow_2: autoDraw = False
+12.8221 	EXP 	blue_2: autoDraw = False
+12.8221 	EXP 	fixation_2: autoDraw = False
+12.8221 	EXP 	black: autoDraw = False
+12.8221 	EXP 	red_2: autoDraw = False
+12.8221 	EXP 	green_2: autoDraw = False
+12.8221 	EXP 	yellow_2: autoDraw = False
+12.8221 	EXP 	blue_2: autoDraw = False
+12.8221 	EXP 	fixation_2: autoDraw = False
+12.8221 	EXP 	docs: autoDraw = False
+12.8221 	EXP 	reward__sub: height = 0.05
+12.8221 	EXP 	reward__sub: height = 0.05
+12.8221 	EXP 	reward__sub: height = 0.05
+12.8221 	EXP 	reward__sub: text = 50
+12.8221 	EXP 	black_com: autoDraw = True
+12.8221 	EXP 	reward_sub: autoDraw = True
+12.8221 	EXP 	reward__sub: autoDraw = True
+12.8221 	EXP 	red_compare: autoDraw = True
+12.8221 	EXP 	green_com: autoDraw = True
+12.8221 	EXP 	yellow_com: autoDraw = True
+12.8221 	EXP 	blue_com: autoDraw = True
+14.4397 	EXP 	black_com: autoDraw = False
+14.4397 	EXP 	reward_sub: autoDraw = False
+14.4397 	EXP 	reward__sub: autoDraw = False
+14.4397 	EXP 	red_compare: autoDraw = False
+14.4397 	EXP 	green_com: autoDraw = False
+14.4397 	EXP 	yellow_com: autoDraw = False
+14.4397 	EXP 	blue_com: autoDraw = False
+14.4397 	EXP 	black_com: autoDraw = False
+14.4397 	EXP 	reward_sub: autoDraw = False
+14.4397 	EXP 	reward__sub: autoDraw = False
+14.4397 	EXP 	red_compare: autoDraw = False
+14.4397 	EXP 	green_com: autoDraw = False
+14.4397 	EXP 	yellow_com: autoDraw = False
+14.4397 	EXP 	blue_com: autoDraw = False
+14.4397 	EXP 	bigx: height = 0.5
+14.4397 	EXP 	bigx: height = 0.5
+14.4397 	EXP 	bigx: height = 0.5
+14.4397 	EXP 	bigx: text = '×'
+14.4397 	EXP 	bigx: autoDraw = False
+14.4397 	EXP 	intertrialfix: autoDraw = True
+16.0632 	EXP 	New trial (rep=0, index=1): OrderedDict([('arm1', 32), ('arm2', 43), ('arm3', 50), ('arm4', 58)])
+16.0710 	EXP 	intertrialfix: autoDraw = False
+16.0710 	EXP 	intertrialfix: autoDraw = False
+16.0710 	EXP 	rest_image: autoDraw = False
+16.0710 	EXP 	red: autoDraw = True
+16.0710 	EXP 	green: autoDraw = True
+16.0710 	EXP 	yellow: autoDraw = True
+16.0710 	EXP 	blue: autoDraw = True
+16.0710 	EXP 	Fixation: autoDraw = True
+16.5011 	DATA 	Keypress: j
+16.5048 	EXP 	red: autoDraw = False
+16.5048 	EXP 	green: autoDraw = False
+16.5048 	EXP 	yellow: autoDraw = False
+16.5048 	EXP 	blue: autoDraw = False
+16.5048 	EXP 	Fixation: autoDraw = False
+16.5048 	EXP 	black: image = 'pic/black.png'
+16.5048 	EXP 	red_2: image = 'pic/red.png'
+16.5048 	EXP 	green_2: image = 'pic/green.png'
+16.5048 	EXP 	yellow_2: image = 'pic/yellow.png'
+16.5048 	EXP 	blue_2: image = 'pic/blue.png'
+16.5048 	EXP 	fixation_2: text = '+'
+16.5048 	EXP 	docs: text = '● ● ●'
+16.5048 	EXP 	black: autoDraw = True
+16.5048 	EXP 	red_2: autoDraw = True
+16.5048 	EXP 	green_2: autoDraw = True
+16.5048 	EXP 	yellow_2: autoDraw = True
+16.5048 	EXP 	blue_2: autoDraw = True
+16.5048 	EXP 	fixation_2: autoDraw = True
+16.7616 	EXP 	docs: autoDraw = True
+18.3029 	EXP 	docs: autoDraw = False
+18.3453 	EXP 	black: autoDraw = False
+18.3453 	EXP 	red_2: autoDraw = False
+18.3453 	EXP 	green_2: autoDraw = False
+18.3453 	EXP 	yellow_2: autoDraw = False
+18.3453 	EXP 	blue_2: autoDraw = False
+18.3453 	EXP 	fixation_2: autoDraw = False
+18.3453 	EXP 	black: autoDraw = False
+18.3453 	EXP 	red_2: autoDraw = False
+18.3453 	EXP 	green_2: autoDraw = False
+18.3453 	EXP 	yellow_2: autoDraw = False
+18.3453 	EXP 	blue_2: autoDraw = False
+18.3453 	EXP 	fixation_2: autoDraw = False
+18.3453 	EXP 	docs: autoDraw = False
+18.3453 	EXP 	reward__sub: height = 0.05
+18.3453 	EXP 	reward__sub: height = 0.05
+18.3453 	EXP 	reward__sub: height = 0.05
+18.3453 	EXP 	reward__sub: text = 32
+18.3453 	EXP 	black_com: autoDraw = True
+18.3453 	EXP 	reward_sub: autoDraw = True
+18.3453 	EXP 	reward__sub: autoDraw = True
+18.3453 	EXP 	red_compare: autoDraw = True
+18.3453 	EXP 	green_com: autoDraw = True
+18.3453 	EXP 	yellow_com: autoDraw = True
+18.3453 	EXP 	blue_com: autoDraw = True
+20.1939 	EXP 	black_com: autoDraw = False
+20.1939 	EXP 	reward_sub: autoDraw = False
+20.1939 	EXP 	reward__sub: autoDraw = False
+20.1939 	EXP 	red_compare: autoDraw = False
+20.1939 	EXP 	green_com: autoDraw = False
+20.1939 	EXP 	yellow_com: autoDraw = False
+20.1939 	EXP 	blue_com: autoDraw = False
+20.1939 	EXP 	black_com: autoDraw = False
+20.1939 	EXP 	reward_sub: autoDraw = False
+20.1939 	EXP 	reward__sub: autoDraw = False
+20.1939 	EXP 	red_compare: autoDraw = False
+20.1939 	EXP 	green_com: autoDraw = False
+20.1939 	EXP 	yellow_com: autoDraw = False
+20.1939 	EXP 	blue_com: autoDraw = False
+20.1939 	EXP 	bigx: text = '×'
+20.1939 	EXP 	bigx: autoDraw = False
+20.1939 	EXP 	intertrialfix: autoDraw = True
+21.1528 	DATA 	Keypress: escape
+21.3665 	EXP 	window1: mouseVisible = True
+0.8423 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+3.4409 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1512, 982]. Using actual size
+4.5831 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+4.5837 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff0a2ee3cd0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7ff07bfc7c10>, multiSample=False, name='window1', numSamples=2, pos=[378.0, 245.5], screen=0, size=array([3024, 1964]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.5840 	EXP 	window1: mouseVisible = True
+4.5853 	EXP 	window1: mouseVisible = False
+4.5853 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.5854 	EXP 	window1: recordFrameIntervals = False
+4.6655 	EXP 	window1: recordFrameIntervals = True
+5.4991 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+7.2463 	EXP 	Created instru_img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro1.png', interpolate=True, mask=None, maskParams=None, name='instru_img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.6, 1. ]), texRes=128, units='height', win=Window(...))
+8.5455 	EXP 	Created instru_img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/intro22.png', interpolate=True, mask=None, maskParams=None, name='instru_img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.67, 1.  ]), texRes=128.0, units='height', win=Window(...))
+8.8172 	EXP 	Created fixbefore_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixbefore_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.8393 	EXP 	Created rest_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/rest.png', interpolate=True, mask=None, maskParams=None, name='rest_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.857, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+9.0999 	EXP 	Created red = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.1051 	EXP 	Created green = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.1101 	EXP 	Created yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.1151 	EXP 	Created blue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3706 	EXP 	Created Fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.3737 	EXP 	Created black = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='black', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+9.3763 	EXP 	Created red_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='red_2', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3788 	EXP 	Created green_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='green_2', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3814 	EXP 	Created yellow_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='yellow_2', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3840 	EXP 	Created blue_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='blue_2', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.3852 	EXP 	Created fixation_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fixation_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.3856 	EXP 	Created docs = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='docs', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.3896 	EXP 	Created black_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='pic/black.png', interpolate=True, mask=None, maskParams=None, name='black_com', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.33]), texRes=128, units='height', win=Window(...))
+9.3989 	EXP 	Created reward_sub = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='pic/rewardsub.png', interpolate=True, mask=None, maskParams=None, name='reward_sub', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([0.365, 0.1  ]), texRes=128.0, units='height', win=Window(...))
+9.3993 	EXP 	Created reward__sub = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='reward__sub', opacity=1.0, ori=0.0, pos=array([0.0647, 0.305 ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.4043 	EXP 	Created red_compare = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='pic/red.png', interpolate=True, mask=None, maskParams=None, name='red_compare', opacity=1.0, ori=0.0, pos=array([-0.2,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.4093 	EXP 	Created green_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='pic/green.png', interpolate=True, mask=None, maskParams=None, name='green_com', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.4143 	EXP 	Created yellow_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='pic/yellow.png', interpolate=True, mask=None, maskParams=None, name='yellow_com', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.4192 	EXP 	Created blue_com = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='pic/blue.png', interpolate=True, mask=None, maskParams=None, name='blue_com', opacity=1.0, ori=0.0, pos=array([0.2, 0. ]), size=array([0.3]), texRes=128, units='height', win=Window(...))
+9.4197 	EXP 	Created bigx = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='bigx', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.4223 	EXP 	Created intertrialfix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='intertrialfix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.4392 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='pic/end.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.661, 0.1  ]), texRes=128, units='height', win=Window(...))
+9.7041 	WARNING 	t of last frame was 4205.42ms (=1/0)
+9.7041 	EXP 	instru_img1: autoDraw = True
+10.7108 	DATA 	Keypress: space
+10.7190 	EXP 	instru_img1: autoDraw = False
+10.7190 	EXP 	instru_img2: autoDraw = True
+11.0566 	DATA 	Keypress: s
+11.0615 	WARNING 	t of last frame was 45.56ms (=1/21)
+11.0615 	EXP 	instru_img2: autoDraw = False
+11.0615 	EXP 	fixbefore_2: autoDraw = True
+12.0433 	EXP 	Imported reward_distribution_e3/reward_distribution_1.csv as conditions, 150 conditions, 4 params
+12.0452 	EXP 	Created sequence: sequential, trialTypes=150, nReps=150, seed=None
+12.0462 	EXP 	New trial (rep=0, index=0): OrderedDict([('arm1', 45), ('arm2', 42), ('arm3', 50), ('arm4', 53)])
+12.0616 	WARNING 	t of last frame was 37.09ms (=1/26)
+12.0616 	EXP 	fixbefore_2: autoDraw = False
+12.0616 	EXP 	rest_image: autoDraw = False
+12.0616 	EXP 	red: autoDraw = True
+12.0616 	EXP 	green: autoDraw = True
+12.0616 	EXP 	yellow: autoDraw = True
+12.0616 	EXP 	blue: autoDraw = True
+12.0616 	EXP 	Fixation: autoDraw = True
+12.4279 	DATA 	Keypress: lcommand
+12.5062 	DATA 	Keypress: lshift
+13.3842 	DATA 	Keypress: r
+13.3879 	WARNING 	t of last frame was 59.86ms (=1/16)
+13.3879 	EXP 	red: autoDraw = False
+13.3879 	EXP 	green: autoDraw = False
+13.3879 	EXP 	yellow: autoDraw = False
+13.3879 	EXP 	blue: autoDraw = False
+13.3879 	EXP 	Fixation: autoDraw = False
+13.3879 	EXP 	black: image = 'pic/black.png'
+13.3879 	EXP 	red_2: image = 'pic/red.png'
+13.3879 	EXP 	green_2: image = 'pic/green.png'
+13.3879 	EXP 	yellow_2: image = 'pic/yellow.png'
+13.3879 	EXP 	blue_2: image = 'pic/blue.png'
+13.3879 	EXP 	fixation_2: height = 0.06
+13.3879 	EXP 	fixation_2: height = 0.06
+13.3879 	EXP 	fixation_2: height = 0.06
+13.3879 	EXP 	fixation_2: text = '+'
+13.3879 	EXP 	docs: height = 0.05
+13.3879 	EXP 	docs: height = 0.05
+13.3879 	EXP 	docs: height = 0.05
+13.3879 	EXP 	docs: text = '● ● ●'
+13.3879 	EXP 	black: autoDraw = True
+13.3879 	EXP 	red_2: autoDraw = True
+13.3879 	EXP 	green_2: autoDraw = True
+13.3879 	EXP 	yellow_2: autoDraw = True
+13.3879 	EXP 	blue_2: autoDraw = True
+13.3879 	EXP 	fixation_2: autoDraw = True
+13.6441 	EXP 	docs: autoDraw = True
+13.6665 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+14.5014 	EXP 	docs: autoDraw = False
+14.5602 	EXP 	black: autoDraw = False
+14.5602 	EXP 	red_2: autoDraw = False
+14.5602 	EXP 	green_2: autoDraw = False
+14.5602 	EXP 	yellow_2: autoDraw = False
+14.5602 	EXP 	blue_2: autoDraw = False
+14.5602 	EXP 	fixation_2: autoDraw = False
+14.5602 	EXP 	black: autoDraw = False
+14.5602 	EXP 	red_2: autoDraw = False
+14.5602 	EXP 	green_2: autoDraw = False
+14.5602 	EXP 	yellow_2: autoDraw = False
+14.5602 	EXP 	blue_2: autoDraw = False
+14.5602 	EXP 	fixation_2: autoDraw = False
+14.5602 	EXP 	docs: autoDraw = False
+14.5602 	EXP 	reward__sub: height = 0.05
+14.5602 	EXP 	reward__sub: height = 0.05
+14.5602 	EXP 	reward__sub: height = 0.05
+14.5602 	EXP 	reward__sub: text = 42
+14.5602 	EXP 	black_com: autoDraw = True
+14.5602 	EXP 	reward_sub: autoDraw = True
+14.5602 	EXP 	reward__sub: autoDraw = True
+14.5602 	EXP 	red_compare: autoDraw = True
+14.5602 	EXP 	green_com: autoDraw = True
+14.5602 	EXP 	yellow_com: autoDraw = True
+14.5602 	EXP 	blue_com: autoDraw = True
+15.4736 	DATA 	Keypress: lcommand
+15.4912 	DATA 	Keypress: lshift
+15.7187 	EXP 	black_com: autoDraw = False
+15.7187 	EXP 	reward_sub: autoDraw = False
+15.7187 	EXP 	reward__sub: autoDraw = False
+15.7187 	EXP 	red_compare: autoDraw = False
+15.7187 	EXP 	green_com: autoDraw = False
+15.7187 	EXP 	yellow_com: autoDraw = False
+15.7187 	EXP 	blue_com: autoDraw = False
+15.7187 	EXP 	black_com: autoDraw = False
+15.7187 	EXP 	reward_sub: autoDraw = False
+15.7187 	EXP 	reward__sub: autoDraw = False
+15.7187 	EXP 	red_compare: autoDraw = False
+15.7187 	EXP 	green_com: autoDraw = False
+15.7187 	EXP 	yellow_com: autoDraw = False
+15.7187 	EXP 	blue_com: autoDraw = False
+15.7187 	EXP 	bigx: height = 0.5
+15.7187 	EXP 	bigx: height = 0.5
+15.7187 	EXP 	bigx: height = 0.5
+15.7187 	EXP 	bigx: text = '×'
+15.7187 	EXP 	bigx: autoDraw = False
+15.7187 	EXP 	intertrialfix: autoDraw = True
+16.7814 	DATA 	Keypress: r
+17.5979 	EXP 	New trial (rep=0, index=1): OrderedDict([('arm1', 32), ('arm2', 43), ('arm3', 50), ('arm4', 58)])
+17.6113 	EXP 	intertrialfix: autoDraw = False
+17.6113 	EXP 	intertrialfix: autoDraw = False
+17.6113 	EXP 	rest_image: autoDraw = False
+17.6113 	EXP 	red: autoDraw = True
+17.6113 	EXP 	green: autoDraw = True
+17.6113 	EXP 	yellow: autoDraw = True
+17.6113 	EXP 	blue: autoDraw = True
+17.6113 	EXP 	Fixation: autoDraw = True
+18.0362 	DATA 	Keypress: r
+18.0400 	EXP 	red: autoDraw = False
+18.0400 	EXP 	green: autoDraw = False
+18.0400 	EXP 	yellow: autoDraw = False
+18.0400 	EXP 	blue: autoDraw = False
+18.0400 	EXP 	Fixation: autoDraw = False
+18.0400 	EXP 	black: image = 'pic/black.png'
+18.0400 	EXP 	red_2: image = 'pic/red.png'
+18.0400 	EXP 	green_2: image = 'pic/green.png'
+18.0400 	EXP 	yellow_2: image = 'pic/yellow.png'
+18.0400 	EXP 	blue_2: image = 'pic/blue.png'
+18.0400 	EXP 	fixation_2: text = '+'
+18.0400 	EXP 	docs: text = '● ● ●'
+18.0400 	EXP 	black: autoDraw = True
+18.0400 	EXP 	red_2: autoDraw = True
+18.0400 	EXP 	green_2: autoDraw = True
+18.0400 	EXP 	yellow_2: autoDraw = True
+18.0400 	EXP 	blue_2: autoDraw = True
+18.0400 	EXP 	fixation_2: autoDraw = True
+18.2933 	EXP 	docs: autoDraw = True
+18.5144 	DATA 	Keypress: lcommand
+18.6061 	DATA 	Keypress: lshift
+19.7905 	EXP 	docs: autoDraw = False
+19.8466 	EXP 	black: autoDraw = False
+19.8466 	EXP 	red_2: autoDraw = False
+19.8466 	EXP 	green_2: autoDraw = False
+19.8466 	EXP 	yellow_2: autoDraw = False
+19.8466 	EXP 	blue_2: autoDraw = False
+19.8466 	EXP 	fixation_2: autoDraw = False
+19.8466 	EXP 	black: autoDraw = False
+19.8466 	EXP 	red_2: autoDraw = False
+19.8466 	EXP 	green_2: autoDraw = False
+19.8466 	EXP 	yellow_2: autoDraw = False
+19.8466 	EXP 	blue_2: autoDraw = False
+19.8466 	EXP 	fixation_2: autoDraw = False
+19.8466 	EXP 	docs: autoDraw = False
+19.8466 	EXP 	reward__sub: height = 0.05
+19.8466 	EXP 	reward__sub: height = 0.05
+19.8466 	EXP 	reward__sub: height = 0.05
+19.8466 	EXP 	reward__sub: text = 43
+19.8466 	EXP 	black_com: autoDraw = True
+19.8466 	EXP 	reward_sub: autoDraw = True
+19.8466 	EXP 	reward__sub: autoDraw = True
+19.8466 	EXP 	red_compare: autoDraw = True
+19.8466 	EXP 	green_com: autoDraw = True
+19.8466 	EXP 	yellow_com: autoDraw = True
+19.8466 	EXP 	blue_com: autoDraw = True
+21.6391 	EXP 	black_com: autoDraw = False
+21.6391 	EXP 	reward_sub: autoDraw = False
+21.6391 	EXP 	reward__sub: autoDraw = False
+21.6391 	EXP 	red_compare: autoDraw = False
+21.6391 	EXP 	green_com: autoDraw = False
+21.6391 	EXP 	yellow_com: autoDraw = False
+21.6391 	EXP 	blue_com: autoDraw = False
+21.6391 	EXP 	black_com: autoDraw = False
+21.6391 	EXP 	reward_sub: autoDraw = False
+21.6391 	EXP 	reward__sub: autoDraw = False
+21.6391 	EXP 	red_compare: autoDraw = False
+21.6391 	EXP 	green_com: autoDraw = False
+21.6391 	EXP 	yellow_com: autoDraw = False
+21.6391 	EXP 	blue_com: autoDraw = False
+21.6391 	EXP 	bigx: text = '×'
+21.6391 	EXP 	bigx: autoDraw = False
+21.6391 	EXP 	intertrialfix: autoDraw = True
+23.2017 	EXP 	New trial (rep=0, index=2): OrderedDict([('arm1', 43), ('arm2', 50), ('arm3', 57), ('arm4', 55)])
+23.2089 	EXP 	intertrialfix: autoDraw = False
+23.2089 	EXP 	intertrialfix: autoDraw = False
+23.2089 	EXP 	rest_image: autoDraw = False
+23.2089 	EXP 	red: autoDraw = True
+23.2089 	EXP 	green: autoDraw = True
+23.2089 	EXP 	yellow: autoDraw = True
+23.2089 	EXP 	blue: autoDraw = True
+23.2089 	EXP 	Fixation: autoDraw = True
+24.2660 	DATA 	Keypress: f
+24.2696 	EXP 	red: autoDraw = False
+24.2696 	EXP 	green: autoDraw = False
+24.2696 	EXP 	yellow: autoDraw = False
+24.2696 	EXP 	blue: autoDraw = False
+24.2696 	EXP 	Fixation: autoDraw = False
+24.2696 	EXP 	black: image = 'pic/black.png'
+24.2696 	EXP 	red_2: image = 'pic/red.png'
+24.2696 	EXP 	green_2: image = 'pic/green.png'
+24.2696 	EXP 	yellow_2: image = 'pic/yellow.png'
+24.2696 	EXP 	blue_2: image = 'pic/blue.png'
+24.2696 	EXP 	fixation_2: text = '+'
+24.2696 	EXP 	docs: text = '● ● ●'
+24.2696 	EXP 	black: autoDraw = True
+24.2696 	EXP 	red_2: autoDraw = True
+24.2696 	EXP 	green_2: autoDraw = True
+24.2696 	EXP 	yellow_2: autoDraw = True
+24.2696 	EXP 	blue_2: autoDraw = True
+24.2696 	EXP 	fixation_2: autoDraw = True
+24.5174 	EXP 	docs: autoDraw = True
+24.8932 	DATA 	Keypress: lcommand
+24.9194 	DATA 	Keypress: lshift
+26.1327 	EXP 	docs: autoDraw = False
+26.1874 	EXP 	black: autoDraw = False
+26.1874 	EXP 	red_2: autoDraw = False
+26.1874 	EXP 	green_2: autoDraw = False
+26.1874 	EXP 	yellow_2: autoDraw = False
+26.1874 	EXP 	blue_2: autoDraw = False
+26.1874 	EXP 	fixation_2: autoDraw = False
+26.1874 	EXP 	black: autoDraw = False
+26.1874 	EXP 	red_2: autoDraw = False
+26.1874 	EXP 	green_2: autoDraw = False
+26.1874 	EXP 	yellow_2: autoDraw = False
+26.1874 	EXP 	blue_2: autoDraw = False
+26.1874 	EXP 	fixation_2: autoDraw = False
+26.1874 	EXP 	docs: autoDraw = False
+26.1874 	EXP 	reward__sub: height = 0.05
+26.1874 	EXP 	reward__sub: height = 0.05
+26.1874 	EXP 	reward__sub: height = 0.05
+26.1874 	EXP 	reward__sub: text = 55
+26.1874 	EXP 	black_com: autoDraw = True
+26.1874 	EXP 	reward_sub: autoDraw = True
+26.1874 	EXP 	reward__sub: autoDraw = True
+26.1874 	EXP 	red_compare: autoDraw = True
+26.1874 	EXP 	green_com: autoDraw = True
+26.1874 	EXP 	yellow_com: autoDraw = True
+26.1874 	EXP 	blue_com: autoDraw = True
+28.0917 	EXP 	black_com: autoDraw = False
+28.0917 	EXP 	reward_sub: autoDraw = False
+28.0917 	EXP 	reward__sub: autoDraw = False
+28.0917 	EXP 	red_compare: autoDraw = False
+28.0917 	EXP 	green_com: autoDraw = False
+28.0917 	EXP 	yellow_com: autoDraw = False
+28.0917 	EXP 	blue_com: autoDraw = False
+28.0917 	EXP 	black_com: autoDraw = False
+28.0917 	EXP 	reward_sub: autoDraw = False
+28.0917 	EXP 	reward__sub: autoDraw = False
+28.0917 	EXP 	red_compare: autoDraw = False
+28.0917 	EXP 	green_com: autoDraw = False
+28.0917 	EXP 	yellow_com: autoDraw = False
+28.0917 	EXP 	blue_com: autoDraw = False
+28.0917 	EXP 	bigx: text = '×'
+28.0917 	EXP 	bigx: autoDraw = False
+28.0917 	EXP 	intertrialfix: autoDraw = True
+29.4652 	DATA 	Keypress: escape
+29.6210 	EXP 	window1: mouseVisible = True
