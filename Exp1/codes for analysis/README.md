@@ -1,4 +1,7 @@
-# Requirements
+# Description
+All regression results and correlation results were calculated in 'comparison.ipynb' and 'model_validation.ipynb'.
+
+## Requirements
 - numpy
 - pandas
 - scipy
@@ -8,10 +11,10 @@
 - seaborn
 - statsmodels
 
-# comparison.ipynb
+## comparison.ipynb
 This file was used to generate Figure 4 'Group fitting results of Exp 1 and Exp 3'. (Exp1)
 
-# model_validation.ipynb
+## model_validation.ipynb
 This file was used to generate Figure 2D 'the probabilities of exploration in Exp1' and Figure 3 'modeling results of Exp 1' and calculate the regression result of Table 1 'The linear regression between social comparison and belief update of the mean and variance (uncertainty) of the bandits’ reward distributions' and supplementary tables.
 
 # Key functions
