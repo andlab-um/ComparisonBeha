@@ -1,8 +1,8 @@
-# ComparisonBeha
+# Irrelevant social comparison affects the exploration of uncertainty and its association with subjective expectations
 The codebase underlying Zhang et al.'s 2023  paper about Irrelevant social comparison affects the exploration of uncertainty and its association with subjective expectations (preprint: https://psyarxiv.com/74qvb/)
 ![image text](https://github.com/andlab-um/ComparisonBeha/blob/main/Framework_noQ.png)
 
-# Description
+## Description
 Codes for data analysis, behavioral data, and fitting result data in 'Irrelevant social comparison affects the exploration of uncertainty and its association with subjective expectations'.
 Behavioral data and fitting result data are stored in csv files and data analysis codes are written in Python. Behavioral data is fitted by the Stan package (pystan).
 
@@ -13,6 +13,7 @@ This project is about 'how irrelevant social comparison influences exploration u
 The field of exploration behavior has received widespread attention (Wu, 2018, Nat. Hum. Behav., Lee, 2023, Sci. Adv.), but in reality, our behavior strategies are influenced by the social environment and many other factors (Yao, 2022, Nat. Hum. Soc. Sci. Comm, Fan, 2022, Nat. Hum. Behav., Toyokawa, 2019, Nat. Hum. Behav.). For instance, experience can increase the planning depth during decision-making (van Opheusden, 2023, Nat.), people model the minds of others when making decisions within social groups (Khalvati, 2019, Sci. Adv.), and social learning can amplify expressions of anger in social networks (Brady, 2021, Sci. Adv.). However, these studies have not addressed the potential impact of comparison behavior on decision-making when we compare and learn from others, especially when the information provided by these comparisons does not aid our self-assessment, termed as "irrelevant social comparisons."
 
 ## Experiment
+![image text](https://github.com/andlab-um/ComparisonBeha/blob/main/E1design.png)
 To address this issue, we designed three experiments based on the classic restless bandit experiment. 
 
 In Exp1 -- How irrelevant social comparisons affect participants' choosing process, we had two participants perform the experiment together and allowed them to see each other's reward information at the result stage. However, the reward distributions of the two were completely independent, meaning any comparison about rewards was irrelevant. We found that even such irrelevant social comparisons significantly affect participants’ exploitation strategies.
