@@ -22,6 +22,17 @@ In Exp2 -- How irrelevant social comparisons affect participants' learning proce
 
 In Exp2 -- If irrelevant social comparisons affect participants' exploration strategies by changing their subjective expectations, we altered the subjective expectations of participants and had them complete the experiment individually. We found that changing subjective expectations had a consistent impact on participants' exploitation behavior as irrelevant social comparisons, but the impact on exploration behavior was significantly different.
 
+## Authors
+- Shuo Zhang (张铄) - develop the study concept, design the study, collect data, perform data analysis, and write the manuscript
+
+- Haofei Wu (吴昊飞) - develop the study concept, design the study, collect data, perform data analysis, and write the manuscript
+
+- Keyu Hu (胡可羽) - write the manuscript
+
+- Quanyin Liu (刘泉影) - develop the study concept, design the study, and supervise the whole work
+
+- Haiyan Wu (伍海燕) - develop the study concept, design the study, and supervise the whole work
+
 ## HISTORY
 21.03.2022 - Initiation date
 
