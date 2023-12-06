@@ -39,7 +39,7 @@ In Exp2 -- If irrelevant social comparisons affect participants' exploration str
 
 
 ## REFERENCES
-
+preprint: https://psyarxiv.com/74qvb/
 
 ## Notes
 If you want to run the code, pay attention to the environment configuration and the file path.
