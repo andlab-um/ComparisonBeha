@@ -18,20 +18,20 @@ To address this issue, we designed three experiments based on the classic restle
 
 In Exp1 -- How irrelevant social comparisons affect participants' choosing process, we had two participants perform the experiment together and allowed them to see each other's reward information at the result stage. However, the reward distributions of the two were completely independent, meaning any comparison about rewards was irrelevant. We found that even such irrelevant social comparisons significantly affect participants’ exploitation strategies.
 
-In Exp2 -- How irrelevant social comparisons affect participants' learning process, we additionally asked participants to predict the mean reward for a bandit after receiving reward and report their confidence rating in this prediction. We found that when participants received higher rewards than others, they reported stronger subjective confidence, implying a decrease in their uncertainty.
+In Exp2 -- How irrelevant social comparisons affect participants' learning process, we additionally asked participants to predict the mean reward for a bandit after receiving the reward and report their confidence rating in this prediction. We found that when participants received higher rewards than others, they reported stronger subjective confidence, implying a decrease in their uncertainty.
 
 In Exp2 -- If irrelevant social comparisons affect participants' exploration strategies by changing their subjective expectations, we altered the subjective expectations of participants and had them complete the experiment individually. We found that changing subjective expectations had a consistent impact on participants' exploitation behavior as irrelevant social comparisons, but the impact on exploration behavior was significantly different.
 
 ## Authors
-- Shuo Zhang (张铄) - develop the study concept, design the study, collect data, perform data analysis, and write the manuscript
+- Shuo Zhang (张铄) - Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, and Writing
 
-- Haofei Wu (吴昊飞) - develop the study concept, design the study, collect data, perform data analysis, and write the manuscript
+- Haofei Wu (吴昊飞) - Software, Validation, Formal analysis, Investigation, and Writing
 
-- Keyu Hu (胡可羽) - write the manuscript
+- Keyu Hu (胡可羽) - Writing
 
-- Quanyin Liu (刘泉影) - develop the study concept, design the study, and supervise the whole work
+- Quanyin Liu (刘泉影) - Writing, Supervision, Project administration, and Funding acquisition
 
-- Haiyan Wu (伍海燕) - develop the study concept, design the study, and supervise the whole work
+- Haiyan Wu (伍海燕) - Writing, Supervision, Project administration, and Funding acquisition
 
 ## HISTORY
 21.03.2022 - Initiation date
@@ -39,7 +39,7 @@ In Exp2 -- If irrelevant social comparisons affect participants' exploration str
 
 
 ## REFERENCES
-
+preprint: https://psyarxiv.com/74qvb/
 
 ## Notes
 If you want to run the code, pay attention to the environment configuration and the file path.
